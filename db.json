@@ -25,7 +25,58 @@
     }
   
 ]
+},
+
+
+
+  "magazineVideo": {
+    
+    "items": [
+      {
+        "id": 1,
+        "title": "برنج گلستان",
+        "description": "عطر و طعم بی‌نظیر برنج گلستان با هیچ برنج دیگری قابل مقایسه نیست. با گلستان، کیفیت زندگی بالاتر از همیشه است چرا که مشتریان گلستان، لایق بهترین‌ها هستند.",
+        "video": {
+          
+          "thumbnail": "",
+          "url": "https://www.aparat.com/video/video/embed/videohash/Mwp4H/vt/frame?t=0"
+        },
+        "action": {
+          "label": "مشاهده محصولات",
+          "link": "/products"
+        }
+      },
+      {
+        "id": 2,
+        "title": "اینستاگرام هاتی نودل",
+        "description": "نودل‌های هاتی کارا را می‌توان جایگزین سالمی برای غذاهای فست‌فودی دانست. طعم عالی، ارزش غذایی بالا و قیمت مناسب از این محصول غذایی سالم و کاملاً ساخته است.",
+        "video": {
+          
+          "thumbnail": "",
+          "url": "https://www.aparat.com/video/video/embed/videohash/Ysaot/vt/frame?t=0"
+        },
+        "action": {
+          "label": "ادامه مطلب",
+          "link": "/magazine/hotnoodle-instagram"
+        }
+      },
+      {
+        "id": 3,
+        "title": "سالاد نودل",
+        "description": "نودل‌های هاتی کارا یک میان‌وعده مغذی در هر موقعیتی هستند که با کمی آب جوش و یک نودل هاتی کارا می‌توانید یک غذای سالم و خوشمزه تهیه کنید.",
+        "video": {
+          "duration": "00:57",
+          "thumbnail": "",
+          "url": "https://www.aparat.com/video/video/embed/videohash/cQ0yF/vt/frame?t=4"
+        },
+        "action": {
+          "label": "ویدیوهای بیشتر",
+          "link": "/videos"
+        }
+      }
+    ]
+  }
 }
 
 
-}
+
