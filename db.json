@@ -41,10 +41,7 @@
           "thumbnail": "",
           "url": "https://www.aparat.com/video/video/embed/videohash/Mwp4H/vt/frame?t=0"
         },
-        "action": {
-          "label": "مشاهده محصولات",
-          "link": "/products"
-        }
+      "buttonText": "ادامه مطلب"
       },
       {
         "id": 2,
@@ -55,10 +52,7 @@
           "thumbnail": "",
           "url": "https://www.aparat.com/video/video/embed/videohash/Ysaot/vt/frame?t=0"
         },
-        "action": {
-          "label": "ادامه مطلب",
-          "link": "/magazine/hotnoodle-instagram"
-        }
+     "buttonText": "ادامه مطلب"
       },
       {
         "id": 3,
@@ -69,10 +63,7 @@
           "thumbnail": "",
           "url": "https://www.aparat.com/video/video/embed/videohash/cQ0yF/vt/frame?t=4"
         },
-        "action": {
-          "label": "ویدیوهای بیشتر",
-          "link": "/videos"
-        }
+     "buttonText": "ادامه مطلب"
       }
     ]
   }
