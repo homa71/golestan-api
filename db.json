@@ -59,14 +59,143 @@
         "title": "سالاد نودل",
         "description": "نودل‌های هاتی کارا یک میان‌وعده مغذی در هر موقعیتی هستند که با کمی آب جوش و یک نودل هاتی کارا می‌توانید یک غذای سالم و خوشمزه تهیه کنید.",
         "video": {
-          "duration": "00:57",
+          
           "thumbnail": "",
           "url": "https://www.aparat.com/video/video/embed/videohash/cQ0yF/vt/frame?t=4"
         },
      "buttonText": "ادامه مطلب"
       }
     ]
+  },
+
+ "menu": {
+  "logo":{
+    "src":"./images/header-logo/logo-fr.png"
+  },
+  "items":[
+  
+  {
+    "id": 1,
+    "title": "صفحه اصلی",
+    "href": "/"
+  },
+  {
+    "id": 2,
+    "title": "شرکت گلستان",
+    "href": "/company",
+    "submenu": [
+      {
+        "title": "تاریخچه‌ی گلستان",
+        "href": "/company/history"
+      },
+      {
+        "title": "اخبار و اطلاعات",
+        "href": "/company/news"
+      },
+      {
+        "title": "مسئولیت‌های اجتماعی",
+        "href": "/company/social-responsibility"
+      },
+      {
+        "title": "سازمان فروش",
+        "href": "/company/sales-organization"
+      },
+      {
+        "title": "سازمان توزیع",
+        "href": "/company/distribution-organization"
+      },
+      {
+        "title": "برنده‌ها",
+        "href": "/company/winners"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "محصولات",
+    "href": "/products",
+    "submenu": [
+      {
+        "title": "چای",
+        "href": "/products/tea"
+      },
+      {
+        "title": "برنج",
+        "href": "/products/rice"
+      },
+      {
+        "title": "حبوبات و غلات",
+        "href": "/products/grains"
+      },
+      {
+        "title": "زعفران",
+        "href": "/products/saffron"
+      },
+      {
+        "title": "ادویه",
+        "href": "/products/spices"
+      },
+      {
+        "title": "دمنوش",
+        "href": "/products/herbal-tea"
+      },
+      {
+        "title": "قند و شکر",
+        "href": "/products/sugar"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "وبلاگ",
+    "href": "/blog",
+    "submenu": [
+      {
+        "title": "مجله‌ی گلستان",
+        "href": "/blog/magazine"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "قرعه کشی",
+    "href": "/lottery"
+  },
+  {
+    "id": 6,
+    "title": "استخدام",
+    "href": "/careers"
+  },
+  {
+    "id": 7,
+    "title": "تماس با ما",
+    "href": "/contact",
+    "submenu": [
+      {
+        "title": "دفتر مرکزی",
+        "href": "/contact/head-office"
+      },
+      {
+        "title": "صدای مشتریان",
+        "href": "/contact/customer-voice"
+      },
+      {
+        "title": "ارتباط با مشتریان",
+        "href": "/contact/customer-relations"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "title": "EN",
+    "href": "/en"
   }
+]
+ }
+
+
+
+
 }
 
 
