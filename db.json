@@ -1,202 +1,3382 @@
 {
-  "magazine":{
-    "title":"مجله گلستان",
-    "items":[
+    "banner":[
+        {"id":1,"image":"./image/header-banner/header-banner-gif.gif","alt":"banner"}
+    ],
+      "slogo":[
+        {"id":1,"image":"./image/svg/header-serch-logo.svg","alt":"logo"}
+    ],
+    "sregister":[
+        {"id":1,"image1":"./image/svg/header-serch-register-arrow.svg","alt1":"arrow-svg","title1":"ورود","title2":"ثبت‌نام","image2":"./image/svg/header-serch-register.basket.svg","alt2":"basket-svg"}
+    ],
+    "menur": [
+
+    {
+        "id": 0,
+      "type":"first",
+      "image": "./image/svg/header-menu-right-bars.svg",
+      "alt": "bars-svg",
+      "title": "دسته‌بندی کالاها",
+      "link": "#",
+      "submenu": [
+        {
+          "id":0,
+          "right":{
+            "id": 1,
+          "title": "موبایل",
+          "icon": {"fillRule": "evenodd",
+          "clipRule": "evenodd",
+          "d":"M7 1h10a3 3 0 013 3v16a3 3 0 01-3 3H7a3 3 0 01-3-3V4a3 3 0 013-3zm0 2a1 1 0 00-1 1v16a1 1 0 001 1h10a1 1 0 001-1V4a1 1 0 00-1-1H7zm5 17a2 2 0 100-4 2 2 0 000 4z"
+          },
+          "link":"#"
+        },
+        "top":{
+          "id":1,
+          "title":" همه محصولات موبایل",
+          "icon":"./image/svg/gallery-observ.svg",
+          "link": "#"
+        },
+          "children": {
+            "col1":[
+              {
+                "header":{
+                "title":"برندهای مختلف گوشی موبایل",
+                "icon":"./image/svg/observ-arrow-black.svg",
+                "link":"#"
+              },
+              "items":[
+                 { "title": "گوشی آیفون", "link": "#" },
+        { "title": "گوشی سامسونگ", "link": "#" },
+        { "title": "گوشی شیائومی", "link": "#" },
+        { "title": "گوشی نوکیا", "link": "#" },
+        { "title": "گوشی آنر", "link": "#" },
+        { "title": "گوشی ناتینگ فون", "link": "#" }
+              ]
+            },
+            {
+                "header":{
+                "title":" برندهای برتر",
+                "icon":"./image/svg/observ-arrow-black.svg",
+                "link":"#"
+              },
+            "items":[
+               { "title": "سامسونگ", "link": "#" },
+               { "title": "نوکیا", "link": "#" },
+               { "title": "آنر", "link": "#" }
+            ]
+
+            }
+          ],
+         "col2":[
+          {
+              "header":{
+                "title":"برندهای مختلف گوشی موبایل",
+                "icon":"./image/svg/observ-arrow-black.svg",
+                "link":"#"
+              },
+              "items":[
+                 { "title": "گوشی آیفون", "link": "#" },
+        { "title": "گوشی سامسونگ", "link": "#" },
+        { "title": "گوشی شیائومی", "link": "#" },
+        { "title": "گوشی نوکیا", "link": "#" },
+        { "title": "گوشی آنر", "link": "#" },
+        { "title": "گوشی ناتینگ فون", "link": "#" }
+              ]
+            },
+            {
+                "header":{
+                "title":" برندهای برتر",
+                "icon":"./image/svg/observ-arrow-black.svg",
+                "link":"#"
+              },
+            "items":[
+               { "title": "سامسونگ", "link": "#" },
+               { "title": "نوکیا", "link": "#" },
+               { "title": "آنر", "link": "#" }
+            ]
+
+            }
+          ],
+          "col3":[
+             {
+              "header":{
+                "title":"برندهای مختلف گوشی موبایل",
+                "icon":"./image/svg/observ-arrow-black.svg",
+                "link":"#"
+              },
+              "items":[
+                 { "title": "گوشی آیفون", "link": "#" },
+        { "title": "گوشی سامسونگ", "link": "#" },
+        { "title": "گوشی شیائومی", "link": "#" },
+        { "title": "گوشی نوکیا", "link": "#" },
+        { "title": "گوشی آنر", "link": "#" },
+        { "title": "گوشی ناتینگ فون", "link": "#" }
+              ]
+            },
+            {
+                "header":{
+                "title":" برندهای برتر",
+                "icon":"./image/svg/observ-arrow-black.svg",
+                "link":"#"
+              },
+            "items":[
+               { "title": "سامسونگ", "link": "#" },
+               { "title": "نوکیا", "link": "#" },
+               { "title": "آنر", "link": "#" }
+            ]
+
+            }
+          ],
+          "col4":[
+             {
+              "header":{
+                "title":"برندهای مختلف گوشی موبایل",
+                "icon":"./image/svg/observ-arrow-black.svg",
+                "link":"#"
+              },
+              "items":[
+                 { "title": "گوشی آیفون", "link": "#" },
+        { "title": "گوشی سامسونگ", "link": "#" },
+        { "title": "گوشی شیائومی", "link": "#" },
+        { "title": "گوشی نوکیا", "link": "#" },
+        { "title": "گوشی آنر", "link": "#" },
+        { "title": "گوشی ناتینگ فون", "link": "#" }
+              ]
+            },
+              {
+                "header":{
+                "title":" برندهای برتر",
+                "icon":"./image/svg/observ-arrow-black.svg",
+                "link":"#"
+              },
+            "items":[
+               { "title": "سامسونگ", "link": "#" },
+               { "title": "نوکیا", "link": "#" },
+               { "title": "آنر", "link": "#" }
+            ]
+
+            }
+          ]
+        }
+      },
+      
+        {
+          "id":1,
+          "right":{
+          "id": 2,
+          "title": "کالای دیجیتال",
+          "icon": {"fillRule": "evenodd",
+          "clipRule": "evenodd",
+          "d": "M4 5a1 1 0 011-1h14a1 1 0 011 1v8.723l2.858 4.762A1 1 0 0122 20H2a1 1 0 01-.857-1.515L4 13.723V5zm2 8h12V6H6v7zm-.434 2l-1.8 3h16.468l-1.8-3H5.566z"
+
+          },
+          "link":"#"
+        },
+        "top":{
+          "id":2,
+          "title":" همه محصولات کالای دیجیتال",
+          "icon":"./image/svg/gallery-observ.svg",
+          "link": "#"
+        },
+          "children": {
+            "col1":[
+              {
+                "header":{
+                "title":"لپ‌تاپ",
+                "icon":"./image/svg/observ-arrow-black.svg",
+                "link":"#"
+              },
+              "items":[
+                 { "title": "لپ‌تاپ ایسوس", "link": "#" },
+        { "title": "لپ‌تاپ لنوو", "link": "#" },
+        { "title": "مک بوک", "link": "#" },
+        { "title": "لپ‌تاپ دل", "link": "#" },
+        { "title": "لپ‌تاپ ایسر", "link": "#" },
+        { "title": "لپ‌تاپ ام اس آی", "link": "#" }
+              ]
+            },
+            {
+                "header":{
+                "title":" لوازم جانبی لپ‌تاپ",
+                "icon":"./image/svg/observ-arrow-black.svg",
+                "link":"#"
+              },
+            "items":[
+               { "title": "شارژر لپ‌تاپ", "link": "#" },
+               { "title": "کیف لپ‌تاپ", "link": "#" },
+               { "title": "کول پد", "link": "#" }
+            ]
+
+            }
+          ],
+         "col2":[
+           {
+                "header":{
+                "title":"لپ‌تاپ",
+                "icon":"./image/svg/observ-arrow-black.svg",
+                "link":"#"
+              },
+              "items":[
+                 { "title": "لپ‌تاپ ایسوس", "link": "#" },
+        { "title": "لپ‌تاپ لنوو", "link": "#" },
+        { "title": "مک بوک", "link": "#" },
+        { "title": "لپ‌تاپ دل", "link": "#" },
+        { "title": "لپ‌تاپ ایسر", "link": "#" },
+        { "title": "لپ‌تاپ ام اس آی", "link": "#" }
+              ]
+            },
+            {
+                "header":{
+                "title":" لوازم جانبی لپ‌تاپ",
+                "icon":"./image/svg/observ-arrow-black.svg",
+                "link":"#"
+              },
+            "items":[
+               { "title": "شارژر لپ‌تاپ", "link": "#" },
+               { "title": "کیف لپ‌تاپ", "link": "#" },
+               { "title": "کول پد", "link": "#" }
+            ]
+
+            }
+         
+          
+          ],
+          "col3":[
+             {
+                "header":{
+                "title":"لپ‌تاپ",
+                "icon":"./image/svg/observ-arrow-black.svg",
+                "link":"#"
+              },
+              "items":[
+                 { "title": "لپ‌تاپ ایسوس", "link": "#" },
+        { "title": "لپ‌تاپ لنوو", "link": "#" },
+        { "title": "مک بوک", "link": "#" },
+        { "title": "لپ‌تاپ دل", "link": "#" },
+        { "title": "لپ‌تاپ ایسر", "link": "#" },
+        { "title": "لپ‌تاپ ام اس آی", "link": "#" }
+              ]
+            },
+            {
+                "header":{
+                "title":" لوازم جانبی لپ‌تاپ",
+                "icon":"./image/svg/observ-arrow-black.svg",
+                "link":"#"
+              },
+            "items":[
+               { "title": "شارژر لپ‌تاپ", "link": "#" },
+               { "title": "کیف لپ‌تاپ", "link": "#" },
+               { "title": "کول پد", "link": "#" }
+            ]
+
+            }
+            
+          ],
+          "col4":[
+              {
+                "header":{
+                "title":"لپ‌تاپ",
+                "icon":"./image/svg/observ-arrow-black.svg",
+                "link":"#"
+              },
+              "items":[
+                 { "title": "لپ‌تاپ ایسوس", "link": "#" },
+        { "title": "لپ‌تاپ لنوو", "link": "#" },
+        { "title": "مک بوک", "link": "#" },
+        { "title": "لپ‌تاپ دل", "link": "#" },
+        { "title": "لپ‌تاپ ایسر", "link": "#" },
+        { "title": "لپ‌تاپ ام اس آی", "link": "#" }
+              ]
+            },
+            {
+                "header":{
+                "title":" لوازم جانبی لپ‌تاپ",
+                "icon":"./image/svg/observ-arrow-black.svg",
+                "link":"#"
+              },
+            "items":[
+               { "title": "شارژر لپ‌تاپ", "link": "#" },
+               { "title": "کیف لپ‌تاپ", "link": "#" },
+               { "title": "کول پد", "link": "#" }
+            ]
+
+            }
+          ]
+        }
+
+        },
+        {
+          "id":2,
+          "right":{
+          "id": 3,
+          "title": "لپ‌تاپ",
+          "icon":{"fillRule": "evenodd",
+          "clipRule": "evenodd",
+          "d":"M4 5a1 1 0 011-1h14a1 1 0 011 1v8.723l2.858 4.762A1 1 0 0122 20H2a1 1 0 01-.857-1.515L4 13.723V5zm2 8h12V6H6v7zm-.434 2l-1.8 3h16.468l-1.8-3H5.566z"
+
+          },
+          "link":"#"
+        },
+        "top":{
+          "id":3,
+          "title":" همه محصولات لپ‌تاپ",
+          "icon":"./image/svg/gallery-observ.svg",
+          "link": "#"
+        },
+          "children": {
+             "col1":[
+              {
+                "header":{
+                "title":" لپ‌تاپ ایسوس",
+                "icon":"./image/svg/observ-arrow-black.svg",
+                "link":"#"
+              },
+              "items":[
+                 { "title": "لپ تاپ ROG", "link": "#" },
+        { "title": "لپ تاپ TUF Gaming", "link": "#" },
+        { "title": "لپ تاپ Zenbook", "link": "#" },
+        { "title": "لپ تاپ vivobook", "link": "#" }
+       
+              ]
+            },
+            {
+                "header":{
+                "title":" لپ تاپ لنوو",
+                "icon":"./image/svg/observ-arrow-black.svg",
+                "link":"#"
+              },
+            "items":[
+               { "title": "لپ تاپ v15", "link": "#" },
+               { "title": "لپ تاپ ideapad 1", "link": "#" },
+               { "title": "لپ تاپ ideapad slim 3", "link": "#" },
+               { "title": "لپ تاپ ideapad slim 3", "link": "#" },
+               { "title": "لپ تاپ ideapad slim 3", "link": "#" }
+                                    
+              ]
+
+            }
+          ],
+         "col2":[
+            {
+                "header":{
+                "title":" لپ‌تاپ ایسوس",
+                "icon":"./image/svg/observ-arrow-black.svg",
+                "link":"#"
+              },
+              "items":[
+                 { "title": "لپ تاپ ROG", "link": "#" },
+        { "title": "لپ تاپ TUF Gaming", "link": "#" },
+        { "title": "لپ تاپ Zenbook", "link": "#" },
+        { "title": "لپ تاپ vivobook", "link": "#" }
+       
+              ]
+            },
+            {
+                "header":{
+                "title":" لپ تاپ لنوو",
+                "icon":"./image/svg/observ-arrow-black.svg",
+                "link":"#"
+              },
+            "items":[
+               { "title": "لپ تاپ v15", "link": "#" },
+               { "title": "لپ تاپ ideapad 1", "link": "#" },
+               { "title": "لپ تاپ ideapad slim 3", "link": "#" },
+               { "title": "لپ تاپ ideapad slim 3", "link": "#" },
+               { "title": "لپ تاپ ideapad slim 3", "link": "#" }
+                                    
+              ]
+
+            }
+          
+          ],
+          "col3":[
+            {
+                "header":{
+                "title":" لپ‌تاپ ایسوس",
+                "icon":"./image/svg/observ-arrow-black.svg",
+                "link":"#"
+              },
+              "items":[
+                 { "title": "لپ تاپ ROG", "link": "#" },
+        { "title": "لپ تاپ TUF Gaming", "link": "#" },
+        { "title": "لپ تاپ Zenbook", "link": "#" },
+        { "title": "لپ تاپ vivobook", "link": "#" }
+       
+              ]
+            },
+            {
+                "header":{
+                "title":" لپ تاپ لنوو",
+                "icon":"./image/svg/observ-arrow-black.svg",
+                "link":"#"
+              },
+            "items":[
+               { "title": "لپ تاپ v15", "link": "#" },
+               { "title": "لپ تاپ ideapad 1", "link": "#" },
+               { "title": "لپ تاپ ideapad slim 3", "link": "#" },
+               { "title": "لپ تاپ ideapad slim 3", "link": "#" },
+               { "title": "لپ تاپ ideapad slim 3", "link": "#" }
+                                    
+              ]
+
+            }
+          ],
+          "col4":[
+             {
+                "header":{
+                "title":" لپ‌تاپ ایسوس",
+                "icon":"./image/svg/observ-arrow-black.svg",
+                "link":"#"
+              },
+              "items":[
+                 { "title": "لپ تاپ ROG", "link": "#" },
+        { "title": "لپ تاپ TUF Gaming", "link": "#" },
+        { "title": "لپ تاپ Zenbook", "link": "#" },
+        { "title": "لپ تاپ vivobook", "link": "#" }
+       
+              ]
+            },
+            {
+                "header":{
+                "title":" لپ تاپ لنوو",
+                "icon":"./image/svg/observ-arrow-black.svg",
+                "link":"#"
+              },
+            "items":[
+               { "title": "لپ تاپ v15", "link": "#" },
+               { "title": "لپ تاپ ideapad 1", "link": "#" },
+               { "title": "لپ تاپ ideapad slim 3", "link": "#" },
+               { "title": "لپ تاپ ideapad slim 3", "link": "#" },
+               { "title": "لپ تاپ ideapad slim 3", "link": "#" }
+                                    
+              ]
+
+            }
+          ]
+        }
+
+
+        },
+          {
+            "id":3,
+          "right":{
+            "id": 1,
+          "title": "موبایل",
+          "icon": {"fillRule": "evenodd",
+          "clipRule": "evenodd",
+          "d":"M7 1h10a3 3 0 013 3v16a3 3 0 01-3 3H7a3 3 0 01-3-3V4a3 3 0 013-3zm0 2a1 1 0 00-1 1v16a1 1 0 001 1h10a1 1 0 001-1V4a1 1 0 00-1-1H7zm5 17a2 2 0 100-4 2 2 0 000 4z"
+          },
+          "link":"#"
+        },
+        "top":{
+          "id":1,
+          "title":" همه محصولات موبایل",
+          "icon":"./image/svg/gallery-observ.svg",
+          "link": "#"
+        },
+          "children": {
+            "col1":[
+              {
+                "header":{
+                "title":"برندهای مختلف گوشی موبایل",
+                "icon":"./image/svg/observ-arrow-black.svg",
+                "link":"#"
+              },
+              "items":[
+                 { "title": "گوشی آیفون", "link": "#" },
+        { "title": "گوشی سامسونگ", "link": "#" },
+        { "title": "گوشی شیائومی", "link": "#" },
+        { "title": "گوشی نوکیا", "link": "#" },
+        { "title": "گوشی آنر", "link": "#" },
+        { "title": "گوشی ناتینگ فون", "link": "#" }
+              ]
+            },
+            {
+                "header":{
+                "title":" برندهای برتر",
+                "icon":"./image/svg/observ-arrow-black.svg",
+                "link":"#"
+              },
+            "items":[
+               { "title": "سامسونگ", "link": "#" },
+               { "title": "نوکیا", "link": "#" },
+               { "title": "آنر", "link": "#" }
+            ]
+
+            }
+          ],
+         "col2":[
+          {
+              "header":{
+                "title":"برندهای مختلف گوشی موبایل",
+                "icon":"./image/svg/observ-arrow-black.svg",
+                "link":"#"
+              },
+              "items":[
+                 { "title": "گوشی آیفون", "link": "#" },
+        { "title": "گوشی سامسونگ", "link": "#" },
+        { "title": "گوشی شیائومی", "link": "#" },
+        { "title": "گوشی نوکیا", "link": "#" },
+        { "title": "گوشی آنر", "link": "#" },
+        { "title": "گوشی ناتینگ فون", "link": "#" }
+              ]
+            },
+            {
+                "header":{
+                "title":" برندهای برتر",
+                "icon":"./image/svg/observ-arrow-black.svg",
+                "link":"#"
+              },
+            "items":[
+               { "title": "سامسونگ", "link": "#" },
+               { "title": "نوکیا", "link": "#" },
+               { "title": "آنر", "link": "#" }
+            ]
+
+            }
+          ],
+          "col3":[
+             {
+              "header":{
+                "title":"برندهای مختلف گوشی موبایل",
+                "icon":"./image/svg/observ-arrow-black.svg",
+                "link":"#"
+              },
+              "items":[
+                 { "title": "گوشی آیفون", "link": "#" },
+        { "title": "گوشی سامسونگ", "link": "#" },
+        { "title": "گوشی شیائومی", "link": "#" },
+        { "title": "گوشی نوکیا", "link": "#" },
+        { "title": "گوشی آنر", "link": "#" },
+        { "title": "گوشی ناتینگ فون", "link": "#" }
+              ]
+            },
+            {
+                "header":{
+                "title":" برندهای برتر",
+                "icon":"./image/svg/observ-arrow-black.svg",
+                "link":"#"
+              },
+            "items":[
+               { "title": "سامسونگ", "link": "#" },
+               { "title": "نوکیا", "link": "#" },
+               { "title": "آنر", "link": "#" }
+            ]
+
+            }
+          ],
+          "col4":[
+             {
+              "header":{
+                "title":"برندهای مختلف گوشی موبایل",
+                "icon":"./image/svg/observ-arrow-black.svg",
+                "link":"#"
+              },
+              "items":[
+                 { "title": "گوشی آیفون", "link": "#" },
+        { "title": "گوشی سامسونگ", "link": "#" },
+        { "title": "گوشی شیائومی", "link": "#" },
+        { "title": "گوشی نوکیا", "link": "#" },
+        { "title": "گوشی آنر", "link": "#" },
+        { "title": "گوشی ناتینگ فون", "link": "#" }
+              ]
+            },
+              {
+                "header":{
+                "title":" برندهای برتر",
+                "icon":"./image/svg/observ-arrow-black.svg",
+                "link":"#"
+              },
+            "items":[
+               { "title": "سامسونگ", "link": "#" },
+               { "title": "نوکیا", "link": "#" },
+               { "title": "آنر", "link": "#" }
+            ]
+
+            }
+          ]
+        }
+      },
+      
+        {
+          "id":4,
+          "right":{
+          "id": 2,
+          "title": "کالای دیجیتال",
+          "icon": {"fillRule": "evenodd",
+          "clipRule": "evenodd",
+          "d": "M4 5a1 1 0 011-1h14a1 1 0 011 1v8.723l2.858 4.762A1 1 0 0122 20H2a1 1 0 01-.857-1.515L4 13.723V5zm2 8h12V6H6v7zm-.434 2l-1.8 3h16.468l-1.8-3H5.566z"
+
+          },
+          "link":"#"
+        },
+        "top":{
+          "id":2,
+          "title":" همه محصولات کالای دیجیتال",
+          "icon":"./image/svg/gallery-observ.svg",
+          "link": "#"
+        },
+          "children": {
+            "col1":[
+              {
+                "header":{
+                "title":"لپ‌تاپ",
+                "icon":"./image/svg/observ-arrow-black.svg",
+                "link":"#"
+              },
+              "items":[
+                 { "title": "لپ‌تاپ ایسوس", "link": "#" },
+        { "title": "لپ‌تاپ لنوو", "link": "#" },
+        { "title": "مک بوک", "link": "#" },
+        { "title": "لپ‌تاپ دل", "link": "#" },
+        { "title": "لپ‌تاپ ایسر", "link": "#" },
+        { "title": "لپ‌تاپ ام اس آی", "link": "#" }
+              ]
+            },
+            {
+                "header":{
+                "title":" لوازم جانبی لپ‌تاپ",
+                "icon":"./image/svg/observ-arrow-black.svg",
+                "link":"#"
+              },
+            "items":[
+               { "title": "شارژر لپ‌تاپ", "link": "#" },
+               { "title": "کیف لپ‌تاپ", "link": "#" },
+               { "title": "کول پد", "link": "#" }
+            ]
+
+            }
+          ],
+         "col2":[
+           {
+                "header":{
+                "title":"لپ‌تاپ",
+                "icon":"./image/svg/observ-arrow-black.svg",
+                "link":"#"
+              },
+              "items":[
+                 { "title": "لپ‌تاپ ایسوس", "link": "#" },
+        { "title": "لپ‌تاپ لنوو", "link": "#" },
+        { "title": "مک بوک", "link": "#" },
+        { "title": "لپ‌تاپ دل", "link": "#" },
+        { "title": "لپ‌تاپ ایسر", "link": "#" },
+        { "title": "لپ‌تاپ ام اس آی", "link": "#" }
+              ]
+            },
+            {
+                "header":{
+                "title":" لوازم جانبی لپ‌تاپ",
+                "icon":"./image/svg/observ-arrow-black.svg",
+                "link":"#"
+              },
+            "items":[
+               { "title": "شارژر لپ‌تاپ", "link": "#" },
+               { "title": "کیف لپ‌تاپ", "link": "#" },
+               { "title": "کول پد", "link": "#" }
+            ]
+
+            }
+         
+          
+          ],
+          "col3":[
+             {
+                "header":{
+                "title":"لپ‌تاپ",
+                "icon":"./image/svg/observ-arrow-black.svg",
+                "link":"#"
+              },
+              "items":[
+                 { "title": "لپ‌تاپ ایسوس", "link": "#" },
+        { "title": "لپ‌تاپ لنوو", "link": "#" },
+        { "title": "مک بوک", "link": "#" },
+        { "title": "لپ‌تاپ دل", "link": "#" },
+        { "title": "لپ‌تاپ ایسر", "link": "#" },
+        { "title": "لپ‌تاپ ام اس آی", "link": "#" }
+              ]
+            },
+            {
+                "header":{
+                "title":" لوازم جانبی لپ‌تاپ",
+                "icon":"./image/svg/observ-arrow-black.svg",
+                "link":"#"
+              },
+            "items":[
+               { "title": "شارژر لپ‌تاپ", "link": "#" },
+               { "title": "کیف لپ‌تاپ", "link": "#" },
+               { "title": "کول پد", "link": "#" }
+            ]
+
+            }
+            
+          ],
+          "col4":[
+              {
+                "header":{
+                "title":"لپ‌تاپ",
+                "icon":"./image/svg/observ-arrow-black.svg",
+                "link":"#"
+              },
+              "items":[
+                 { "title": "لپ‌تاپ ایسوس", "link": "#" },
+        { "title": "لپ‌تاپ لنوو", "link": "#" },
+        { "title": "مک بوک", "link": "#" },
+        { "title": "لپ‌تاپ دل", "link": "#" },
+        { "title": "لپ‌تاپ ایسر", "link": "#" },
+        { "title": "لپ‌تاپ ام اس آی", "link": "#" }
+              ]
+            },
+            {
+                "header":{
+                "title":" لوازم جانبی لپ‌تاپ",
+                "icon":"./image/svg/observ-arrow-black.svg",
+                "link":"#"
+              },
+            "items":[
+               { "title": "شارژر لپ‌تاپ", "link": "#" },
+               { "title": "کیف لپ‌تاپ", "link": "#" },
+               { "title": "کول پد", "link": "#" }
+            ]
+
+            }
+          ]
+        }
+
+        },
+        {
+          "id":5,
+          "right":{
+          "id": 3,
+          "title": "لپ‌تاپ",
+          "icon":{"fillRule": "evenodd",
+          "clipRule": "evenodd",
+          "d":"M4 5a1 1 0 011-1h14a1 1 0 011 1v8.723l2.858 4.762A1 1 0 0122 20H2a1 1 0 01-.857-1.515L4 13.723V5zm2 8h12V6H6v7zm-.434 2l-1.8 3h16.468l-1.8-3H5.566z"
+
+          },
+          "link":"#"
+        },
+        "top":{
+          "id":3,
+          "title":" همه محصولات لپ‌تاپ",
+          "icon":"./image/svg/gallery-observ.svg",
+          "link": "#"
+        },
+          "children": {
+             "col1":[
+              {
+                "header":{
+                "title":" لپ‌تاپ ایسوس",
+                "icon":"./image/svg/observ-arrow-black.svg",
+                "link":"#"
+              },
+              "items":[
+                 { "title": "لپ تاپ ROG", "link": "#" },
+        { "title": "لپ تاپ TUF Gaming", "link": "#" },
+        { "title": "لپ تاپ Zenbook", "link": "#" },
+        { "title": "لپ تاپ vivobook", "link": "#" }
+       
+              ]
+            },
+            {
+                "header":{
+                "title":" لپ تاپ لنوو",
+                "icon":"./image/svg/observ-arrow-black.svg",
+                "link":"#"
+              },
+            "items":[
+               { "title": "لپ تاپ v15", "link": "#" },
+               { "title": "لپ تاپ ideapad 1", "link": "#" },
+               { "title": "لپ تاپ ideapad slim 3", "link": "#" },
+               { "title": "لپ تاپ ideapad slim 3", "link": "#" },
+               { "title": "لپ تاپ ideapad slim 3", "link": "#" }
+                                    
+              ]
+
+            }
+          ],
+         "col2":[
+            {
+                "header":{
+                "title":" لپ‌تاپ ایسوس",
+                "icon":"./image/svg/observ-arrow-black.svg",
+                "link":"#"
+              },
+              "items":[
+                 { "title": "لپ تاپ ROG", "link": "#" },
+        { "title": "لپ تاپ TUF Gaming", "link": "#" },
+        { "title": "لپ تاپ Zenbook", "link": "#" },
+        { "title": "لپ تاپ vivobook", "link": "#" }
+       
+              ]
+            },
+            {
+                "header":{
+                "title":" لپ تاپ لنوو",
+                "icon":"./image/svg/observ-arrow-black.svg",
+                "link":"#"
+              },
+            "items":[
+               { "title": "لپ تاپ v15", "link": "#" },
+               { "title": "لپ تاپ ideapad 1", "link": "#" },
+               { "title": "لپ تاپ ideapad slim 3", "link": "#" },
+               { "title": "لپ تاپ ideapad slim 3", "link": "#" },
+               { "title": "لپ تاپ ideapad slim 3", "link": "#" }
+                                    
+              ]
+
+            }
+          
+          ],
+          "col3":[
+            {
+                "header":{
+                "title":" لپ‌تاپ ایسوس",
+                "icon":"./image/svg/observ-arrow-black.svg",
+                "link":"#"
+              },
+              "items":[
+                 { "title": "لپ تاپ ROG", "link": "#" },
+        { "title": "لپ تاپ TUF Gaming", "link": "#" },
+        { "title": "لپ تاپ Zenbook", "link": "#" },
+        { "title": "لپ تاپ vivobook", "link": "#" }
+       
+              ]
+            },
+            {
+                "header":{
+                "title":" لپ تاپ لنوو",
+                "icon":"./image/svg/observ-arrow-black.svg",
+                "link":"#"
+              },
+            "items":[
+               { "title": "لپ تاپ v15", "link": "#" },
+               { "title": "لپ تاپ ideapad 1", "link": "#" },
+               { "title": "لپ تاپ ideapad slim 3", "link": "#" },
+               { "title": "لپ تاپ ideapad slim 3", "link": "#" },
+               { "title": "لپ تاپ ideapad slim 3", "link": "#" }
+                                    
+              ]
+
+            }
+          ],
+          "col4":[
+             {
+                "header":{
+                "title":" لپ‌تاپ ایسوس",
+                "icon":"./image/svg/observ-arrow-black.svg",
+                "link":"#"
+              },
+              "items":[
+                 { "title": "لپ تاپ ROG", "link": "#" },
+        { "title": "لپ تاپ TUF Gaming", "link": "#" },
+        { "title": "لپ تاپ Zenbook", "link": "#" },
+        { "title": "لپ تاپ vivobook", "link": "#" }
+       
+              ]
+            },
+            {
+                "header":{
+                "title":" لپ تاپ لنوو",
+                "icon":"./image/svg/observ-arrow-black.svg",
+                "link":"#"
+              },
+            "items":[
+               { "title": "لپ تاپ v15", "link": "#" },
+               { "title": "لپ تاپ ideapad 1", "link": "#" },
+               { "title": "لپ تاپ ideapad slim 3", "link": "#" },
+               { "title": "لپ تاپ ideapad slim 3", "link": "#" },
+               { "title": "لپ تاپ ideapad slim 3", "link": "#" }
+                                    
+              ]
+
+            }
+          ]
+        }
+
+
+        },
+          {
+            "id":6,
+          "right":{
+            "id": 1,
+          "title": "موبایل",
+          "icon": {"fillRule": "evenodd",
+          "clipRule": "evenodd",
+          "d":"M7 1h10a3 3 0 013 3v16a3 3 0 01-3 3H7a3 3 0 01-3-3V4a3 3 0 013-3zm0 2a1 1 0 00-1 1v16a1 1 0 001 1h10a1 1 0 001-1V4a1 1 0 00-1-1H7zm5 17a2 2 0 100-4 2 2 0 000 4z"
+          },
+          "link":"#"
+        },
+        "top":{
+          "id":1,
+          "title":" همه محصولات موبایل",
+          "icon":"./image/svg/gallery-observ.svg",
+          "link": "#"
+        },
+          "children": {
+            "col1":[
+              {
+                "header":{
+                "title":"برندهای مختلف گوشی موبایل",
+                "icon":"./image/svg/observ-arrow-black.svg",
+                "link":"#"
+              },
+              "items":[
+                 { "title": "گوشی آیفون", "link": "#" },
+        { "title": "گوشی سامسونگ", "link": "#" },
+        { "title": "گوشی شیائومی", "link": "#" },
+        { "title": "گوشی نوکیا", "link": "#" },
+        { "title": "گوشی آنر", "link": "#" },
+        { "title": "گوشی ناتینگ فون", "link": "#" }
+              ]
+            },
+            {
+                "header":{
+                "title":" برندهای برتر",
+                "icon":"./image/svg/observ-arrow-black.svg",
+                "link":"#"
+              },
+            "items":[
+               { "title": "سامسونگ", "link": "#" },
+               { "title": "نوکیا", "link": "#" },
+               { "title": "آنر", "link": "#" }
+            ]
+
+            }
+          ],
+         "col2":[
+          {
+              "header":{
+                "title":"برندهای مختلف گوشی موبایل",
+                "icon":"./image/svg/observ-arrow-black.svg",
+                "link":"#"
+              },
+              "items":[
+                 { "title": "گوشی آیفون", "link": "#" },
+        { "title": "گوشی سامسونگ", "link": "#" },
+        { "title": "گوشی شیائومی", "link": "#" },
+        { "title": "گوشی نوکیا", "link": "#" },
+        { "title": "گوشی آنر", "link": "#" },
+        { "title": "گوشی ناتینگ فون", "link": "#" }
+              ]
+            },
+            {
+                "header":{
+                "title":" برندهای برتر",
+                "icon":"./image/svg/observ-arrow-black.svg",
+                "link":"#"
+              },
+            "items":[
+               { "title": "سامسونگ", "link": "#" },
+               { "title": "نوکیا", "link": "#" },
+               { "title": "آنر", "link": "#" }
+            ]
+
+            }
+          ],
+          "col3":[
+             {
+              "header":{
+                "title":"برندهای مختلف گوشی موبایل",
+                "icon":"./image/svg/observ-arrow-black.svg",
+                "link":"#"
+              },
+              "items":[
+                 { "title": "گوشی آیفون", "link": "#" },
+        { "title": "گوشی سامسونگ", "link": "#" },
+        { "title": "گوشی شیائومی", "link": "#" },
+        { "title": "گوشی نوکیا", "link": "#" },
+        { "title": "گوشی آنر", "link": "#" },
+        { "title": "گوشی ناتینگ فون", "link": "#" }
+              ]
+            },
+            {
+                "header":{
+                "title":" برندهای برتر",
+                "icon":"./image/svg/observ-arrow-black.svg",
+                "link":"#"
+              },
+            "items":[
+               { "title": "سامسونگ", "link": "#" },
+               { "title": "نوکیا", "link": "#" },
+               { "title": "آنر", "link": "#" }
+            ]
+
+            }
+          ],
+          "col4":[
+             {
+              "header":{
+                "title":"برندهای مختلف گوشی موبایل",
+                "icon":"./image/svg/observ-arrow-black.svg",
+                "link":"#"
+              },
+              "items":[
+                 { "title": "گوشی آیفون", "link": "#" },
+        { "title": "گوشی سامسونگ", "link": "#" },
+        { "title": "گوشی شیائومی", "link": "#" },
+        { "title": "گوشی نوکیا", "link": "#" },
+        { "title": "گوشی آنر", "link": "#" },
+        { "title": "گوشی ناتینگ فون", "link": "#" }
+              ]
+            },
+              {
+                "header":{
+                "title":" برندهای برتر",
+                "icon":"./image/svg/observ-arrow-black.svg",
+                "link":"#"
+              },
+            "items":[
+               { "title": "سامسونگ", "link": "#" },
+               { "title": "نوکیا", "link": "#" },
+               { "title": "آنر", "link": "#" }
+            ]
+
+            }
+          ]
+        }
+      },
+      
+        {
+          "id":7,
+          "right":{
+          "id": 2,
+          "title": "کالای دیجیتال",
+          "icon": {"fillRule": "evenodd",
+          "clipRule": "evenodd",
+          "d": "M4 5a1 1 0 011-1h14a1 1 0 011 1v8.723l2.858 4.762A1 1 0 0122 20H2a1 1 0 01-.857-1.515L4 13.723V5zm2 8h12V6H6v7zm-.434 2l-1.8 3h16.468l-1.8-3H5.566z"
+
+          },
+          "link":"#"
+        },
+        "top":{
+          "id":2,
+          "title":" همه محصولات کالای دیجیتال",
+          "icon":"./image/svg/gallery-observ.svg",
+          "link": "#"
+        },
+          "children": {
+            "col1":[
+              {
+                "header":{
+                "title":"لپ‌تاپ",
+                "icon":"./image/svg/observ-arrow-black.svg",
+                "link":"#"
+              },
+              "items":[
+                 { "title": "لپ‌تاپ ایسوس", "link": "#" },
+        { "title": "لپ‌تاپ لنوو", "link": "#" },
+        { "title": "مک بوک", "link": "#" },
+        { "title": "لپ‌تاپ دل", "link": "#" },
+        { "title": "لپ‌تاپ ایسر", "link": "#" },
+        { "title": "لپ‌تاپ ام اس آی", "link": "#" }
+              ]
+            },
+            {
+                "header":{
+                "title":" لوازم جانبی لپ‌تاپ",
+                "icon":"./image/svg/observ-arrow-black.svg",
+                "link":"#"
+              },
+            "items":[
+               { "title": "شارژر لپ‌تاپ", "link": "#" },
+               { "title": "کیف لپ‌تاپ", "link": "#" },
+               { "title": "کول پد", "link": "#" }
+            ]
+
+            }
+          ],
+         "col2":[
+           {
+                "header":{
+                "title":"لپ‌تاپ",
+                "icon":"./image/svg/observ-arrow-black.svg",
+                "link":"#"
+              },
+              "items":[
+                 { "title": "لپ‌تاپ ایسوس", "link": "#" },
+        { "title": "لپ‌تاپ لنوو", "link": "#" },
+        { "title": "مک بوک", "link": "#" },
+        { "title": "لپ‌تاپ دل", "link": "#" },
+        { "title": "لپ‌تاپ ایسر", "link": "#" },
+        { "title": "لپ‌تاپ ام اس آی", "link": "#" }
+              ]
+            },
+            {
+                "header":{
+                "title":" لوازم جانبی لپ‌تاپ",
+                "icon":"./image/svg/observ-arrow-black.svg",
+                "link":"#"
+              },
+            "items":[
+               { "title": "شارژر لپ‌تاپ", "link": "#" },
+               { "title": "کیف لپ‌تاپ", "link": "#" },
+               { "title": "کول پد", "link": "#" }
+            ]
+
+            }
+         
+          
+          ],
+          "col3":[
+             {
+                "header":{
+                "title":"لپ‌تاپ",
+                "icon":"./image/svg/observ-arrow-black.svg",
+                "link":"#"
+              },
+              "items":[
+                 { "title": "لپ‌تاپ ایسوس", "link": "#" },
+        { "title": "لپ‌تاپ لنوو", "link": "#" },
+        { "title": "مک بوک", "link": "#" },
+        { "title": "لپ‌تاپ دل", "link": "#" },
+        { "title": "لپ‌تاپ ایسر", "link": "#" },
+        { "title": "لپ‌تاپ ام اس آی", "link": "#" }
+              ]
+            },
+            {
+                "header":{
+                "title":" لوازم جانبی لپ‌تاپ",
+                "icon":"./image/svg/observ-arrow-black.svg",
+                "link":"#"
+              },
+            "items":[
+               { "title": "شارژر لپ‌تاپ", "link": "#" },
+               { "title": "کیف لپ‌تاپ", "link": "#" },
+               { "title": "کول پد", "link": "#" }
+            ]
+
+            }
+            
+          ],
+          "col4":[
+              {
+                "header":{
+                "title":"لپ‌تاپ",
+                "icon":"./image/svg/observ-arrow-black.svg",
+                "link":"#"
+              },
+              "items":[
+                 { "title": "لپ‌تاپ ایسوس", "link": "#" },
+        { "title": "لپ‌تاپ لنوو", "link": "#" },
+        { "title": "مک بوک", "link": "#" },
+        { "title": "لپ‌تاپ دل", "link": "#" },
+        { "title": "لپ‌تاپ ایسر", "link": "#" },
+        { "title": "لپ‌تاپ ام اس آی", "link": "#" }
+              ]
+            },
+            {
+                "header":{
+                "title":" لوازم جانبی لپ‌تاپ",
+                "icon":"./image/svg/observ-arrow-black.svg",
+                "link":"#"
+              },
+            "items":[
+               { "title": "شارژر لپ‌تاپ", "link": "#" },
+               { "title": "کیف لپ‌تاپ", "link": "#" },
+               { "title": "کول پد", "link": "#" }
+            ]
+
+            }
+          ]
+        }
+
+        },
+        {
+          "id":8,
+          "right":{
+          "id": 3,
+          "title": "لپ‌تاپ",
+          "icon":{"fillRule": "evenodd",
+          "clipRule": "evenodd",
+          "d":"M4 5a1 1 0 011-1h14a1 1 0 011 1v8.723l2.858 4.762A1 1 0 0122 20H2a1 1 0 01-.857-1.515L4 13.723V5zm2 8h12V6H6v7zm-.434 2l-1.8 3h16.468l-1.8-3H5.566z"
+
+          },
+          "link":"#"
+        },
+        "top":{
+          "id":3,
+          "title":" همه محصولات لپ‌تاپ",
+          "icon":"./image/svg/gallery-observ.svg",
+          "link": "#"
+        },
+          "children": {
+             "col1":[
+              {
+                "header":{
+                "title":" لپ‌تاپ ایسوس",
+                "icon":"./image/svg/observ-arrow-black.svg",
+                "link":"#"
+              },
+              "items":[
+                 { "title": "لپ تاپ ROG", "link": "#" },
+        { "title": "لپ تاپ TUF Gaming", "link": "#" },
+        { "title": "لپ تاپ Zenbook", "link": "#" },
+        { "title": "لپ تاپ vivobook", "link": "#" }
+       
+              ]
+            },
+            {
+                "header":{
+                "title":" لپ تاپ لنوو",
+                "icon":"./image/svg/observ-arrow-black.svg",
+                "link":"#"
+              },
+            "items":[
+               { "title": "لپ تاپ v15", "link": "#" },
+               { "title": "لپ تاپ ideapad 1", "link": "#" },
+               { "title": "لپ تاپ ideapad slim 3", "link": "#" },
+               { "title": "لپ تاپ ideapad slim 3", "link": "#" },
+               { "title": "لپ تاپ ideapad slim 3", "link": "#" }
+                                    
+              ]
+
+            }
+          ],
+         "col2":[
+            {
+                "header":{
+                "title":" لپ‌تاپ ایسوس",
+                "icon":"./image/svg/observ-arrow-black.svg",
+                "link":"#"
+              },
+              "items":[
+                 { "title": "لپ تاپ ROG", "link": "#" },
+        { "title": "لپ تاپ TUF Gaming", "link": "#" },
+        { "title": "لپ تاپ Zenbook", "link": "#" },
+        { "title": "لپ تاپ vivobook", "link": "#" }
+       
+              ]
+            },
+            {
+                "header":{
+                "title":" لپ تاپ لنوو",
+                "icon":"./image/svg/observ-arrow-black.svg",
+                "link":"#"
+              },
+            "items":[
+               { "title": "لپ تاپ v15", "link": "#" },
+               { "title": "لپ تاپ ideapad 1", "link": "#" },
+               { "title": "لپ تاپ ideapad slim 3", "link": "#" },
+               { "title": "لپ تاپ ideapad slim 3", "link": "#" },
+               { "title": "لپ تاپ ideapad slim 3", "link": "#" }
+                                    
+              ]
+
+            }
+          
+          ],
+          "col3":[
+            {
+                "header":{
+                "title":" لپ‌تاپ ایسوس",
+                "icon":"./image/svg/observ-arrow-black.svg",
+                "link":"#"
+              },
+              "items":[
+                 { "title": "لپ تاپ ROG", "link": "#" },
+        { "title": "لپ تاپ TUF Gaming", "link": "#" },
+        { "title": "لپ تاپ Zenbook", "link": "#" },
+        { "title": "لپ تاپ vivobook", "link": "#" }
+       
+              ]
+            },
+            {
+                "header":{
+                "title":" لپ تاپ لنوو",
+                "icon":"./image/svg/observ-arrow-black.svg",
+                "link":"#"
+              },
+            "items":[
+               { "title": "لپ تاپ v15", "link": "#" },
+               { "title": "لپ تاپ ideapad 1", "link": "#" },
+               { "title": "لپ تاپ ideapad slim 3", "link": "#" },
+               { "title": "لپ تاپ ideapad slim 3", "link": "#" },
+               { "title": "لپ تاپ ideapad slim 3", "link": "#" }
+                                    
+              ]
+
+            }
+          ],
+          "col4":[
+             {
+                "header":{
+                "title":" لپ‌تاپ ایسوس",
+                "icon":"./image/svg/observ-arrow-black.svg",
+                "link":"#"
+              },
+              "items":[
+                 { "title": "لپ تاپ ROG", "link": "#" },
+        { "title": "لپ تاپ TUF Gaming", "link": "#" },
+        { "title": "لپ تاپ Zenbook", "link": "#" },
+        { "title": "لپ تاپ vivobook", "link": "#" }
+       
+              ]
+            },
+            {
+                "header":{
+                "title":" لپ تاپ لنوو",
+                "icon":"./image/svg/observ-arrow-black.svg",
+                "link":"#"
+              },
+            "items":[
+               { "title": "لپ تاپ v15", "link": "#" },
+               { "title": "لپ تاپ ideapad 1", "link": "#" },
+               { "title": "لپ تاپ ideapad slim 3", "link": "#" },
+               { "title": "لپ تاپ ideapad slim 3", "link": "#" },
+               { "title": "لپ تاپ ideapad slim 3", "link": "#" }
+                                    
+              ]
+
+            }
+          ]
+        }
+
+
+        },
+          {
+            "id":9,
+          "right":{
+            "id": 1,
+          "title": "موبایل",
+          "icon": {"fillRule": "evenodd",
+          "clipRule": "evenodd",
+          "d":"M7 1h10a3 3 0 013 3v16a3 3 0 01-3 3H7a3 3 0 01-3-3V4a3 3 0 013-3zm0 2a1 1 0 00-1 1v16a1 1 0 001 1h10a1 1 0 001-1V4a1 1 0 00-1-1H7zm5 17a2 2 0 100-4 2 2 0 000 4z"
+          },
+          "link":"#"
+        },
+        "top":{
+          "id":1,
+          "title":" همه محصولات موبایل",
+          "icon":"./image/svg/gallery-observ.svg",
+          "link": "#"
+        },
+          "children": {
+            "col1":[
+              {
+                "header":{
+                "title":"برندهای مختلف گوشی موبایل",
+                "icon":"./image/svg/observ-arrow-black.svg",
+                "link":"#"
+              },
+              "items":[
+                 { "title": "گوشی آیفون", "link": "#" },
+        { "title": "گوشی سامسونگ", "link": "#" },
+        { "title": "گوشی شیائومی", "link": "#" },
+        { "title": "گوشی نوکیا", "link": "#" },
+        { "title": "گوشی آنر", "link": "#" },
+        { "title": "گوشی ناتینگ فون", "link": "#" }
+              ]
+            },
+            {
+                "header":{
+                "title":" برندهای برتر",
+                "icon":"./image/svg/observ-arrow-black.svg",
+                "link":"#"
+              },
+            "items":[
+               { "title": "سامسونگ", "link": "#" },
+               { "title": "نوکیا", "link": "#" },
+               { "title": "آنر", "link": "#" }
+            ]
+
+            }
+          ],
+         "col2":[
+          {
+              "header":{
+                "title":"برندهای مختلف گوشی موبایل",
+                "icon":"./image/svg/observ-arrow-black.svg",
+                "link":"#"
+              },
+              "items":[
+                 { "title": "گوشی آیفون", "link": "#" },
+        { "title": "گوشی سامسونگ", "link": "#" },
+        { "title": "گوشی شیائومی", "link": "#" },
+        { "title": "گوشی نوکیا", "link": "#" },
+        { "title": "گوشی آنر", "link": "#" },
+        { "title": "گوشی ناتینگ فون", "link": "#" }
+              ]
+            },
+            {
+                "header":{
+                "title":" برندهای برتر",
+                "icon":"./image/svg/observ-arrow-black.svg",
+                "link":"#"
+              },
+            "items":[
+               { "title": "سامسونگ", "link": "#" },
+               { "title": "نوکیا", "link": "#" },
+               { "title": "آنر", "link": "#" }
+            ]
+
+            }
+          ],
+          "col3":[
+             {
+              "header":{
+                "title":"برندهای مختلف گوشی موبایل",
+                "icon":"./image/svg/observ-arrow-black.svg",
+                "link":"#"
+              },
+              "items":[
+                 { "title": "گوشی آیفون", "link": "#" },
+        { "title": "گوشی سامسونگ", "link": "#" },
+        { "title": "گوشی شیائومی", "link": "#" },
+        { "title": "گوشی نوکیا", "link": "#" },
+        { "title": "گوشی آنر", "link": "#" },
+        { "title": "گوشی ناتینگ فون", "link": "#" }
+              ]
+            },
+            {
+                "header":{
+                "title":" برندهای برتر",
+                "icon":"./image/svg/observ-arrow-black.svg",
+                "link":"#"
+              },
+            "items":[
+               { "title": "سامسونگ", "link": "#" },
+               { "title": "نوکیا", "link": "#" },
+               { "title": "آنر", "link": "#" }
+            ]
+
+            }
+          ],
+          "col4":[
+             {
+              "header":{
+                "title":"برندهای مختلف گوشی موبایل",
+                "icon":"./image/svg/observ-arrow-black.svg",
+                "link":"#"
+              },
+              "items":[
+                 { "title": "گوشی آیفون", "link": "#" },
+        { "title": "گوشی سامسونگ", "link": "#" },
+        { "title": "گوشی شیائومی", "link": "#" },
+        { "title": "گوشی نوکیا", "link": "#" },
+        { "title": "گوشی آنر", "link": "#" },
+        { "title": "گوشی ناتینگ فون", "link": "#" }
+              ]
+            },
+              {
+                "header":{
+                "title":" برندهای برتر",
+                "icon":"./image/svg/observ-arrow-black.svg",
+                "link":"#"
+              },
+            "items":[
+               { "title": "سامسونگ", "link": "#" },
+               { "title": "نوکیا", "link": "#" },
+               { "title": "آنر", "link": "#" }
+            ]
+
+            }
+          ]
+        }
+      },
+      
+        {
+          "id":10,
+          "right":{
+          "id": 2,
+          "title": "کالای دیجیتال",
+          "icon": {"fillRule": "evenodd",
+          "clipRule": "evenodd",
+          "d": "M4 5a1 1 0 011-1h14a1 1 0 011 1v8.723l2.858 4.762A1 1 0 0122 20H2a1 1 0 01-.857-1.515L4 13.723V5zm2 8h12V6H6v7zm-.434 2l-1.8 3h16.468l-1.8-3H5.566z"
+
+          },
+          "link":"#"
+        },
+        "top":{
+          "id":2,
+          "title":" همه محصولات کالای دیجیتال",
+          "icon":"./image/svg/gallery-observ.svg",
+          "link": "#"
+        },
+          "children": {
+            "col1":[
+              {
+                "header":{
+                "title":"لپ‌تاپ",
+                "icon":"./image/svg/observ-arrow-black.svg",
+                "link":"#"
+              },
+              "items":[
+                 { "title": "لپ‌تاپ ایسوس", "link": "#" },
+        { "title": "لپ‌تاپ لنوو", "link": "#" },
+        { "title": "مک بوک", "link": "#" },
+        { "title": "لپ‌تاپ دل", "link": "#" },
+        { "title": "لپ‌تاپ ایسر", "link": "#" },
+        { "title": "لپ‌تاپ ام اس آی", "link": "#" }
+              ]
+            },
+            {
+                "header":{
+                "title":" لوازم جانبی لپ‌تاپ",
+                "icon":"./image/svg/observ-arrow-black.svg",
+                "link":"#"
+              },
+            "items":[
+               { "title": "شارژر لپ‌تاپ", "link": "#" },
+               { "title": "کیف لپ‌تاپ", "link": "#" },
+               { "title": "کول پد", "link": "#" }
+            ]
+
+            }
+          ],
+         "col2":[
+           {
+                "header":{
+                "title":"لپ‌تاپ",
+                "icon":"./image/svg/observ-arrow-black.svg",
+                "link":"#"
+              },
+              "items":[
+                 { "title": "لپ‌تاپ ایسوس", "link": "#" },
+        { "title": "لپ‌تاپ لنوو", "link": "#" },
+        { "title": "مک بوک", "link": "#" },
+        { "title": "لپ‌تاپ دل", "link": "#" },
+        { "title": "لپ‌تاپ ایسر", "link": "#" },
+        { "title": "لپ‌تاپ ام اس آی", "link": "#" }
+              ]
+            },
+            {
+                "header":{
+                "title":" لوازم جانبی لپ‌تاپ",
+                "icon":"./image/svg/observ-arrow-black.svg",
+                "link":"#"
+              },
+            "items":[
+               { "title": "شارژر لپ‌تاپ", "link": "#" },
+               { "title": "کیف لپ‌تاپ", "link": "#" },
+               { "title": "کول پد", "link": "#" }
+            ]
+
+            }
+         
+          
+          ],
+          "col3":[
+             {
+                "header":{
+                "title":"لپ‌تاپ",
+                "icon":"./image/svg/observ-arrow-black.svg",
+                "link":"#"
+              },
+              "items":[
+                 { "title": "لپ‌تاپ ایسوس", "link": "#" },
+        { "title": "لپ‌تاپ لنوو", "link": "#" },
+        { "title": "مک بوک", "link": "#" },
+        { "title": "لپ‌تاپ دل", "link": "#" },
+        { "title": "لپ‌تاپ ایسر", "link": "#" },
+        { "title": "لپ‌تاپ ام اس آی", "link": "#" }
+              ]
+            },
+            {
+                "header":{
+                "title":" لوازم جانبی لپ‌تاپ",
+                "icon":"./image/svg/observ-arrow-black.svg",
+                "link":"#"
+              },
+            "items":[
+               { "title": "شارژر لپ‌تاپ", "link": "#" },
+               { "title": "کیف لپ‌تاپ", "link": "#" },
+               { "title": "کول پد", "link": "#" }
+            ]
+
+            }
+            
+          ],
+          "col4":[
+              {
+                "header":{
+                "title":"لپ‌تاپ",
+                "icon":"./image/svg/observ-arrow-black.svg",
+                "link":"#"
+              },
+              "items":[
+                 { "title": "لپ‌تاپ ایسوس", "link": "#" },
+        { "title": "لپ‌تاپ لنوو", "link": "#" },
+        { "title": "مک بوک", "link": "#" },
+        { "title": "لپ‌تاپ دل", "link": "#" },
+        { "title": "لپ‌تاپ ایسر", "link": "#" },
+        { "title": "لپ‌تاپ ام اس آی", "link": "#" }
+              ]
+            },
+            {
+                "header":{
+                "title":" لوازم جانبی لپ‌تاپ",
+                "icon":"./image/svg/observ-arrow-black.svg",
+                "link":"#"
+              },
+            "items":[
+               { "title": "شارژر لپ‌تاپ", "link": "#" },
+               { "title": "کیف لپ‌تاپ", "link": "#" },
+               { "title": "کول پد", "link": "#" }
+            ]
+
+            }
+          ]
+        }
+
+        },
+        {
+          "id":11,
+          "right":{
+          "id": 3,
+          "title": "لپ‌تاپ",
+          "icon":{"fillRule": "evenodd",
+          "clipRule": "evenodd",
+          "d":"M4 5a1 1 0 011-1h14a1 1 0 011 1v8.723l2.858 4.762A1 1 0 0122 20H2a1 1 0 01-.857-1.515L4 13.723V5zm2 8h12V6H6v7zm-.434 2l-1.8 3h16.468l-1.8-3H5.566z"
+
+          },
+          "link":"#"
+        },
+        "top":{
+          "id":3,
+          "title":" همه محصولات لپ‌تاپ",
+          "icon":"./image/svg/gallery-observ.svg",
+          "link": "#"
+        },
+          "children": {
+             "col1":[
+              {
+                "header":{
+                "title":" لپ‌تاپ ایسوس",
+                "icon":"./image/svg/observ-arrow-black.svg",
+                "link":"#"
+              },
+              "items":[
+                 { "title": "لپ تاپ ROG", "link": "#" },
+        { "title": "لپ تاپ TUF Gaming", "link": "#" },
+        { "title": "لپ تاپ Zenbook", "link": "#" },
+        { "title": "لپ تاپ vivobook", "link": "#" }
+       
+              ]
+            },
+            {
+                "header":{
+                "title":" لپ تاپ لنوو",
+                "icon":"./image/svg/observ-arrow-black.svg",
+                "link":"#"
+              },
+            "items":[
+               { "title": "لپ تاپ v15", "link": "#" },
+               { "title": "لپ تاپ ideapad 1", "link": "#" },
+               { "title": "لپ تاپ ideapad slim 3", "link": "#" },
+               { "title": "لپ تاپ ideapad slim 3", "link": "#" },
+               { "title": "لپ تاپ ideapad slim 3", "link": "#" }
+                                    
+              ]
+
+            }
+          ],
+         "col2":[
+            {
+                "header":{
+                "title":" لپ‌تاپ ایسوس",
+                "icon":"./image/svg/observ-arrow-black.svg",
+                "link":"#"
+              },
+              "items":[
+                 { "title": "لپ تاپ ROG", "link": "#" },
+        { "title": "لپ تاپ TUF Gaming", "link": "#" },
+        { "title": "لپ تاپ Zenbook", "link": "#" },
+        { "title": "لپ تاپ vivobook", "link": "#" }
+       
+              ]
+            },
+            {
+                "header":{
+                "title":" لپ تاپ لنوو",
+                "icon":"./image/svg/observ-arrow-black.svg",
+                "link":"#"
+              },
+            "items":[
+               { "title": "لپ تاپ v15", "link": "#" },
+               { "title": "لپ تاپ ideapad 1", "link": "#" },
+               { "title": "لپ تاپ ideapad slim 3", "link": "#" },
+               { "title": "لپ تاپ ideapad slim 3", "link": "#" },
+               { "title": "لپ تاپ ideapad slim 3", "link": "#" }
+                                    
+              ]
+
+            }
+          
+          ],
+          "col3":[
+            {
+                "header":{
+                "title":" لپ‌تاپ ایسوس",
+                "icon":"./image/svg/observ-arrow-black.svg",
+                "link":"#"
+              },
+              "items":[
+                 { "title": "لپ تاپ ROG", "link": "#" },
+        { "title": "لپ تاپ TUF Gaming", "link": "#" },
+        { "title": "لپ تاپ Zenbook", "link": "#" },
+        { "title": "لپ تاپ vivobook", "link": "#" }
+       
+              ]
+            },
+            {
+                "header":{
+                "title":" لپ تاپ لنوو",
+                "icon":"./image/svg/observ-arrow-black.svg",
+                "link":"#"
+              },
+            "items":[
+               { "title": "لپ تاپ v15", "link": "#" },
+               { "title": "لپ تاپ ideapad 1", "link": "#" },
+               { "title": "لپ تاپ ideapad slim 3", "link": "#" },
+               { "title": "لپ تاپ ideapad slim 3", "link": "#" },
+               { "title": "لپ تاپ ideapad slim 3", "link": "#" }
+                                    
+              ]
+
+            }
+          ],
+          "col4":[
+             {
+                "header":{
+                "title":" لپ‌تاپ ایسوس",
+                "icon":"./image/svg/observ-arrow-black.svg",
+                "link":"#"
+              },
+              "items":[
+                 { "title": "لپ تاپ ROG", "link": "#" },
+        { "title": "لپ تاپ TUF Gaming", "link": "#" },
+        { "title": "لپ تاپ Zenbook", "link": "#" },
+        { "title": "لپ تاپ vivobook", "link": "#" }
+       
+              ]
+            },
+            {
+                "header":{
+                "title":" لپ تاپ لنوو",
+                "icon":"./image/svg/observ-arrow-black.svg",
+                "link":"#"
+              },
+            "items":[
+               { "title": "لپ تاپ v15", "link": "#" },
+               { "title": "لپ تاپ ideapad 1", "link": "#" },
+               { "title": "لپ تاپ ideapad slim 3", "link": "#" },
+               { "title": "لپ تاپ ideapad slim 3", "link": "#" },
+               { "title": "لپ تاپ ideapad slim 3", "link": "#" }
+                                    
+              ]
+
+            }
+          ]
+        }
+
+
+        }
+      ]
+      
+    
+    },
+
+    
     {
       "id": 1,
-      "title": "چیلا کیله",
-      "image": "./images/magazine/recipe-pic-Chilakile-1401.png",
-      "description": "احتمالا نام چیلا کیله را نشنیده باشید ولی اگر یکبار این غذای فوق‌العاده خوشمزه را تهیه کنید و نوش جان کنید جزئی جدانشدنی از فهرست... ",
-      "buttonText": "ادامه مطلب"
+      "type":"third",
+      "image": "./image/svg/header-menu-right-percent.svg",
+      "alt": "percent-svg",
+      "title": " شگفت‌انگیز‌ها",
+      "link": "#"
     },
     {
       "id": 2,
-      "title": "سوپ مکزیکی",
-      "image": "./images/magazine/recipe-pic3.png",
-      "description": "گوشت بوقلمون را در یک ماهیتابه بزرگ ریخته، آب روی آن بریزید تا روی آن را بپوشاند و به مدت نیم ساعت آن را بپزید. گوشت را از مایع آن بیرون آورده…",
-      "buttonText": "ادامه مطلب"
+      "type":"second",
+      "image": "./image/svg/header-menu-right-basket.svg",
+      "alt": "basket-svg",
+      "title": "  سوپر‌مارکت",
+      "link": "#"
     },
     {
       "id": 3,
-      "title": "ماکارونی با سبزیجات",
-      "image": "./images/magazine/recipe-pic2.png",
-      "description": "ابتدا ماکارونی‌ها را در ظرفی به همراه آب، روغن مایع و نمک می‌ریزیم تا کمی بپزد. در این حین پیازها را خرد کرده و روی روغن تفت می‌دهیم تا طلایی شود...",
-      "buttonText": "ادامه مطلب"
+      "type":"second",
+      "image": "./image/svg/header-menu-right-gift.svg",
+      "alt": "gift-svg",
+      "title": "    کارت‌هدیه",
+      "link": "#"
+    },
+    {
+      "id": 4,
+      "type":"second",
+      "image": "./image/svg/header-menu-right-best.svg",
+      "alt": "best-svg",
+      "title": "      پرفروش‌ترین‌ها",
+      "link": "#"
+    },
+    {
+      "id": 5,
+      "type":"second",
+      "image": "./image/svg/header-menu-right-0percent.svg",
+      "alt": "0percent-svg",
+      "title": "      تخفیف‌ها و پیشنهاد‌ها",
+      "link": "#"
+    },
+       { "id": 6,"type":"third", "title": " سوالی دارید؟", "link": "#" },
+    { "id": 7, "type":"fourth","title": "در دیجی‌کالا بفروشید!", "link": "#" }
+ 
+  ],
+    "story":[
+    {"id":1,
+     "title":"پیچ‌گوشتی شارژی زیر یک تومن",
+     "image":"./image/story/image-1.png",
+     "link":"#"
+    },
+     {"id":2,
+     "title":"مقتدر مثل بلک اند دکر",
+     "image":"./image/story/image-2.png",
+     "link":"#"
+    },
+    {"id":3,
+     "title":"تقویت سیستم ایمنی بدن با شربت ایمیونس",
+     "image":"./image/story/image-3.png",
+     "link":"#"
+    },
+    {"id":4,
+     "title":"پیچ‌گوشتی شارژی زیر یک تومن",
+     "image":"./image/story/image-1.png",
+     "link":"#"
+    },
+     {"id":5,
+     "title":"مقتدر مثل بلک اند دکر",
+     "image":"./image/story/image-2.png",
+     "link":"#"
+    },
+    {"id":6,
+     "title":"تقویت سیستم ایمنی بدن با شربت ایمیونس",
+     "image":"./image/story/image-3.png",
+     "link":"#"
+    },
+    {"id":7,
+     "title":"پیچ‌گوشتی شارژی زیر یک تومن",
+     "image":"./image/story/image-1.png",
+     "link":"#"
+    },
+     {"id":8,
+     "title":"مقتدر مثل بلک اند دکر",
+     "image":"./image/story/image-2.png",
+     "link":"#"
+    },
+    {"id":9,
+     "title":"تقویت سیستم ایمنی بدن با شربت ایمیونس",
+     "image":"./image/story/image-3.png",
+     "link":"#"
+    },
+    {"id":10,
+     "title":"پیچ‌گوشتی شارژی زیر یک تومن",
+     "image":"./image/story/image-1.png",
+     "link":"#"
+    },
+     {"id":11,
+     "title":"مقتدر مثل بلک اند دکر",
+     "image":"./image/story/image-2.png",
+     "link":"#"
+    },
+    {"id":12,
+     "title":"تقویت سیستم ایمنی بدن با شربت ایمیونس",
+     "image":"./image/story/image-3.png"
+    },
+    {"id":13,
+     "title":"پیچ‌گوشتی شارژی زیر یک تومن",
+     "image":"./image/story/image-1.png",
+     "link":"#"
+    },
+     {"id":14,
+     "title":"مقتدر مثل بلک اند دکر",
+     "image":"./image/story/image-2.png",
+     "link":"#"
+    },
+    {"id":15,
+     "title":"تقویت سیستم ایمنی بدن با شربت ایمیونس",
+     "image":"./image/story/image-3.png",
+     "link":"#"
     }
-  
-]
-},
 
-
-
-  "magazineVideo": {
+  ],
+   "slider":[
+    {"id":1,
+    "image":"./image/slider/slide-1.gif",
+    "link":"#"
+    },
+     {"id":2,
+    "image":"./image/slider/slide-2.gif",
+    "link":"#"
+    },
+     {"id":3,
+    "image":"./image/slider/slide-3.gif",
+    "link":"#"
+    },
+     {"id":4,
+    "image":"./image/slider/slide-1.gif",
+    "link":"#"
+    },
+     {"id":5,
+    "image":"./image/slider/slide-2.gif",
+    "link":"#"
+    },
+     {"id":6,
+    "image":"./image/slider/slide-3.gif",
+    "link":"#"
+    }
+  ],
+   "category":[
+     {"id":1,
+      "image":"./image/category/category-1.png",
+      "title":"دریافت وام",
+      "link":"#"
+    },
+      {"id":2,
+      "image":"./image/category/category-2.png",
+      "title":"حراج مد و پوشاک!",
+      "link":"#"
+    },
+      {"id":3,
+      "image":"./image/category/category-3.png",
+      "title":"جایزه 20 میلیونی!",
+      "link":"#"
+    },
+    {"id":4,
+      "image":"./image/category/category-1.png",
+      "title":"دریافت وام",
+      "link":"#"
+    },
+      {"id":5,
+      "image":"./image/category/category-2.png",
+      "title":"حراج مد و پوشاک!",
+      "link":"#"
+    },
+      {"id":6,
+      "image":"./image/category/category-3.png",
+      "title":"جایزه 20 میلیونی!",
+      "link":"#"
+    },
+    {"id":7,
+      "image":"./image/category/category-1.png",
+      "title":"دریافت وام",
+      "link":"#"
+    },
+      {"id":8,
+      "image":"./image/category/category-2.png",
+      "title":"حراج مد و پوشاک!",
+      "link":"#"
+    },
+      {"id":9,
+      "image":"./image/category/category-3.png",
+      "title":"جایزه 20 میلیونی!",
+      "link":"#"
+    },
+      {"id":10,
+      "type":"more",
+      "title":"بیشتر",
+      "link":"#"
+    }
     
-    "items": [
+  ],
+   "incredible":[
+     {"id":1,
+      "type":"first",
+      "logo":"./image/svg/incredible.svg",
+      "icon1":"./image/svg/incredble-svg-2.svg",
+      "icon2":"./image/svg/incredible-observe.svg",
+      "ctatext":"مشاهده همه",
+      "link":"#"
+     },
+     {"id":2,
+     "type":"second",
+     "image":"./image/sale/image-1.png",
+     "title":" گوشی موبایل وکال مدل V1 دو سیم کارت ظرفیت 128 گیگابایت و رم 4 گیگابایت",
+     "price":"6,349,000",
+     "oldprice":"6,765,000",
+     "badge":"6%",
+     "icon":"./image/svg/tooman.svg",
+     "link":"#"
+     },
+      {"id":3,
+      "image":"./image/sale/image-1.png",
+      "title":" گوشی موبایل وکال مدل V1 دو سیم کارت ظرفیت 128 گیگابایت و رم 4 گیگابایت",
+      "price":"6,349,000",
+      "oldprice":"6,765,000",
+      "badge":"6%",
+      "icon":"./image/svg/tooman.svg",
+      "link":"#"
+     },
+      {"id":4,
+      "image":"./image/sale/image-1.png",
+      "title":" گوشی موبایل وکال مدل V1 دو سیم کارت ظرفیت 128 گیگابایت و رم 4 گیگابایت",
+      "price":"6,349,000",
+      "oldprice":"6,765,000",
+      "badge":"6%",
+      "icon":"./image/svg/tooman.svg",
+      "link":"#"
+     },
+      {"id":5,
+      "image":"./image/sale/image-1.png",
+      "title":" گوشی موبایل وکال مدل V1 دو سیم کارت ظرفیت 128 گیگابایت و رم 4 گیگابایت",
+      "price":"6,349,000",
+      "oldprice":"6,765,000",
+      "badge":"6%",
+      "icon":"./image/svg/tooman.svg",
+      "link":"#"
+     },
+      {"id":6,
+      "image":"./image/sale/image-1.png",
+      "title":" گوشی موبایل وکال مدل V1 دو سیم کارت ظرفیت 128 گیگابایت و رم 4 گیگابایت",
+      "price":"6,349,000",
+      "oldprice":"6,765,000",
+      "badge":"6%",
+      "icon":"./image/svg/tooman.svg",
+      "link":"#"
+     },
+      {"id":7,
+      "image":"./image/sale/image-1.png",
+      "title":" گوشی موبایل وکال مدل V1 دو سیم کارت ظرفیت 128 گیگابایت و رم 4 گیگابایت",
+      "price":"6,349,000",
+      "oldprice":"6,765,000",
+      "badge":"6%",
+      "icon":"./image/svg/tooman.svg",
+      "link":"#"
+     },
+      {"id":8,
+      "image":"./image/sale/image-1.png",
+      "title":" گوشی موبایل وکال مدل V1 دو سیم کارت ظرفیت 128 گیگابایت و رم 4 گیگابایت",
+      "price":"6,349,000",
+      "oldprice":"6,765,000",
+      "badge":"6%",
+      "icon":"./image/svg/tooman.svg",
+      "link":"#"
+     },
+      {"id":9,
+      "image":"./image/sale/image-1.png",
+      "title":" گوشی موبایل وکال مدل V1 دو سیم کارت ظرفیت 128 گیگابایت و رم 4 گیگابایت",
+      "price":"6,349,000",
+      "oldprice":"6,765,000",
+      "badge":"6%",
+      "icon":"./image/svg/tooman.svg",
+      "link":"#"
+     },
+      {"id":10,
+      "type":"last",
+       "icon":"./image/svg/observ-arrow-black.svg",
+       "ctatext":"مشاهده همه",
+       "link":"#"
+     }
+  ],
+  "product":[
+     {
+      "id":0,
+      "type":"top",
+      "title":" خرید بر اساس دسته‌بندی"
+     },
+    {
+      "id":1,
+      "image":"./image/product/product-1.png",
+      "alt":"موبایل",
+      "title":"موبایل",
+      "link":"#"
+    },
+     {
+      "id":2,
+      "image":"./image/product/product-2.png",
+      "alt":"  کالای دیجیتال",
+      "title":"  کالای دیجیتال",
+      "link":"#"
+    },
+    {
+      "id":3,
+      "image":"./image/product/product-1.png",
+      "alt":"موبایل",
+      "title":"موبایل",
+      "link":"#"
+    },
+     {
+      "id":4,
+      "image":"./image/product/product-2.png",
+      "alt":"  کالای دیجیتال",
+      "title":"  کالای دیجیتال",
+      "link":"#"
+    },
+    {
+      "id":5,
+      "image":"./image/product/product-1.png",
+      "alt":"موبایل",
+      "title":"موبایل",
+      "link":"#"
+    },
+     {
+      "id":6,
+      "image":"./image/product/product-2.png",
+      "alt":"  کالای دیجیتال",
+      "title":"  کالای دیجیتال",
+      "link":"#"
+    },
+    {
+      "id":7,
+      "image":"./image/product/product-1.png",
+      "alt":"موبایل",
+      "title":"موبایل",
+      "link":"#"
+    },
+     {
+      "id":8,
+      "image":"./image/product/product-2.png",
+      "alt":"  کالای دیجیتال",
+      "title":"  کالای دیجیتال",
+      "link":"#"
+    },
+    {
+      "id":9,
+      "image":"./image/product/product-3.png",
+      "alt":"ورزش و سفر",
+      "title":"ورزش و سفر",
+      "link":"#"
+    },
+     {
+      "id":10,
+      "image":"./image/product/product-4.png",
+      "alt":"  خودرو و موتورسیکلت ",
+      "title":"  خودرو و موتورسیکلت",
+      "link":"#"
+    },
+     {
+      "id":11,
+      "image":"./image/product/product-3.png",
+      "alt":"ورزش و سفر",
+      "title":"ورزش و سفر",
+      "link":"#"
+    },
+     {
+      "id":12,
+      "image":"./image/product/product-4.png",
+      "alt":"  خودرو و موتورسیکلت ",
+      "title":"  خودرو و موتورسیکلت",
+      "link":"#"
+    },
+     {
+      "id":13,
+      "image":"./image/product/product-3.png",
+      "alt":"ورزش و سفر",
+      "title":"ورزش و سفر",
+      "link":"#"
+    },
+     {
+      "id":14,
+      "image":"./image/product/product-4.png",
+      "alt":"  خودرو و موتورسیکلت ",
+      "title":"  خودرو و موتورسیکلت",
+      "link":"#"
+    },
+     {
+      "id":15,
+      "image":"./image/product/product-3.png",
+      "alt":"ورزش و سفر",
+      "title":"ورزش و سفر",
+      "link":"#"
+    },
+     {
+      "id":16,
+      "image":"./image/product/product-4.png",
+      "alt":"  خودرو و موتورسیکلت ",
+      "title":"  خودرو و موتورسیکلت",
+      "link":"#"
+    }
+    
+  ],
+  "favorite":[
+     {
+    "id":0,
+    "type":"top",
+    "title":"محبوب‌ترین برندها",
+    "src":"./image/svg/favorite-center-top-star.svg"
+   },
+   {
+    "id":1,
+    "type":"bottom",
+    "image":[
       {
-        "id": 1,
-        "title": "برنج گلستان",
-        "description": "عطر و طعم بی‌نظیر برنج گلستان با هیچ برنج دیگری قابل مقایسه نیست. با گلستان، کیفیت زندگی بالاتر از همیشه است چرا که مشتریان گلستان، لایق بهترین‌ها هستند.",
-        "video": {
-          
-          "thumbnail": "",
-          "url": "https://www.aparat.com/video/video/embed/videohash/Mwp4H/vt/frame?t=0"
+        "id":0,
+          "src": "./image/favorite/favorite-1.png",
+         "link":"#"
         },
-      "buttonText": "ادامه مطلب"
-      },
-      {
-        "id": 2,
-        "title": "اینستاگرام هاتی نودل",
-        "description": "نودل‌های هاتی کارا را می‌توان جایگزین سالمی برای غذاهای فست‌فودی دانست. طعم عالی، ارزش غذایی بالا و قیمت مناسب از این محصول غذایی سالم و کاملاً ساخته است.",
-        "video": {
-          
-          "thumbnail": "",
-          "url": "https://www.aparat.com/video/video/embed/videohash/Ysaot/vt/frame?t=0"
+         {
+        "id":1,
+          "src": "./image/favorite/favorite-2.png",
+         "link":"#"
         },
-     "buttonText": "ادامه مطلب"
-      },
-      {
-        "id": 3,
-        "title": "سالاد نودل",
-        "description": "نودل‌های هاتی کارا یک میان‌وعده مغذی در هر موقعیتی هستند که با کمی آب جوش و یک نودل هاتی کارا می‌توانید یک غذای سالم و خوشمزه تهیه کنید.",
-        "video": {
-          
-          "thumbnail": "",
-          "url": "https://www.aparat.com/video/video/embed/videohash/cQ0yF/vt/frame?t=4"
+         {
+        "id":2,
+          "src": "./image/favorite/favorite-3.png",
+         "link":"#"
         },
-     "buttonText": "ادامه مطلب"
-      }
+        {
+        "id":3,
+          "src": "./image/favorite/favorite-1.png",
+         "link":"#"
+        },
+         {
+        "id":4,
+          "src": "./image/favorite/favorite-2.png",
+         "link":"#"
+        },
+         {
+        "id":5,
+          "src": "./image/favorite/favorite-3.png",
+         "link":"#"
+        },
+        {
+        "id":6,
+          "src": "./image/favorite/favorite-1.png",
+         "link":"#"
+        },
+         {
+        "id":7,
+          "src": "./image/favorite/favorite-2.png",
+         "link":"#"
+        },
+         {
+        "id":8,
+          "src": "./image/favorite/favorite-3.png",
+         "link":"#"
+        },
+        {
+        "id":9,
+          "src": "./image/favorite/favorite-1.png",
+         "link":"#"
+        },
+         {
+        "id":10,
+          "src": "./image/favorite/favorite-2.png",
+         "link":"#"
+        },
+         {
+        "id":11,
+         "src": "./image/favorite/favorite-3.png",
+         "link":"#",
+         "type":"last"
+        }
     ]
-  },
 
- "menu": {
-  "logo":{
-    "src":"./images/header-logo/logo-fr.png"
-  },
-  "items":[
-  
+   }
+
+  ],
+  "gallery":[
+    {
+      "id":1,
+      "title": "کیف و کاور گوشی",
+      "subtitle": "بر اساس سلیقه شما",
+      "image": [
+        {"id":0,
+          "src": "./image/gallery/gallery-1.png",
+         "link":"#"
+         },
+         {"id":1,
+          "src": "./image/gallery/gallery-2.png",
+         "link":"#"
+         },
+         {
+          "id":2,
+          "src": "./image/gallery/gallery-3.png",
+         "link":"#"
+         },
+         {"id":3,
+          "src": "./image/gallery/gallery-4.png",
+         "link":"#"
+         }
+     ],
+    "cta": {
+    "text": "مشاهده",
+    "link": "#",
+    "svg": "./image/svg/gallery-observ.svg"
+   }
+},
+ {
+      "id":2,
+      "title": "گوشی موبایل",
+      "subtitle": "بر اساس سلیقه شما",
+      "image": [
+        {"id":0,
+          "src": "./image/gallery/gallery-5.png",
+         "link":"#"
+         },
+         {"id":1,
+          "src": "./image/gallery/gallery-6.png",
+         "link":"#"
+         },
+         {"id":2,
+          "src": "./image/gallery/gallery-7.png",
+         "link":"#"
+         },
+         {"id":3,
+          "src": "./image/gallery/gallery-8.png",
+         "link":"#"
+         }
+     ],
+    "cta": {
+    "text": "مشاهده",
+    "link": "#",
+    "svg": "./image/svg/gallery-observ.svg"
+   }
+},
+   {
+      "id":3,
+      "title": "کیف و کاور گوشی",
+      "subtitle": "بر اساس سلیقه شما",
+      "image": [
+        {
+          "id":0,
+          "src": "./image/gallery/gallery-1.png",
+         "link":"#"
+         },
+         {
+          "id":1,
+          "src": "./image/gallery/gallery-2.png",
+         "link":"#"
+         },
+         { 
+          "id":2,
+          "src": "./image/gallery/gallery-3.png",
+         "link":"#"
+         },
+         {
+          "id":3,
+          "src": "./image/gallery/gallery-4.png",
+         "link":"#"
+         }
+     ],
+    "cta": {
+    "text": "مشاهده",
+    "link": "#",
+    "svg": "./image/svg/gallery-observ.svg"
+   }
+},
+ {
+      "id":4,
+      "type":"last",
+      "title": "گوشی موبایل",
+      "subtitle": "بر اساس سلیقه شما",
+      "image": [
+        {
+          "id":0,
+          "src": "./image/gallery/gallery-5.png",
+         "link":"#"
+         },
+         {
+          "id":1,
+          "src": "./image/gallery/gallery-6.png",
+         "link":"#"
+         },
+         {
+          "id":2,
+          "src": "./image/gallery/gallery-7.png",
+         "link":"#"
+         },
+         {
+          "id":3,
+          "src": "./image/gallery/gallery-8.png",
+         "link":"#"
+         }
+     ],
+    "cta": {
+    "text": "مشاهده",
+    "link": "#",
+    "svg": "./image/svg/gallery-observ.svg"
+   }
+}
+
+  ],
+   "best":[
   {
-    "id": 1,
-    "title": "صفحه اصلی",
-    "href": "/"
+    "id":1,
+    "type":"top",
+    "title":"پرفروش‌ترین کالاها",
+    "svg":"./image/svg/best.svg",
+    "cta":{
+      "text":"مشاهده همه",
+      "link":"#"
+    }
   },
   {
-    "id": 2,
-    "title": "شرکت گلستان",
-    "href": "/company",
-    "submenu": [
-      {
-        "title": "تاریخچه‌ی گلستان",
-        "href": "/company/history"
+    "id":2,
+    "type":"bottom",
+    "slides":[
+      {"id":1,
+       "cards":[
+          {
+            "id":1,
+             "image":"./image/best/image-1.png",
+             "number":"1",
+             "description":"کالباس 60 درصد قارچ و مرغ مهيا پروتئين - 250 گرم",
+             "link":"#" 
+          },
+           {
+            "id":2,
+             "image":"./image/best/image-2.png",
+             "number":"2",
+             "description":"گوشی موبایل آلکاتل مدل 1069 دو سیم‌ کارت",
+             "link":"#" 
+          },
+           {
+            "id":3,
+            "type":"last",
+            "image":"./image/best/image-3.png",
+            "number":"3",
+            "description":"پاوربانک شیائومی مدل Redmi ظرفیت 20000 میلی‌آمپرساعت به همراه کابل تبدیل microUSB",
+            "link":"#" 
+          }
+
+       ]
+      
+
       },
-      {
-        "title": "اخبار و اطلاعات",
-        "href": "/company/news"
+       {"id":2,
+       "cards":[
+          {
+            "id":1,
+             "image":"./image/best/image-1.png",
+             "number":"1",
+             "description":"کالباس 60 درصد قارچ و مرغ مهيا پروتئين - 250 گرم",
+             "link":"#" 
+          },
+           {
+            "id":2,
+             "image":"./image/best/image-2.png",
+             "number":"2",
+             "description":"گوشی موبایل آلکاتل مدل 1069 دو سیم‌ کارت",
+             "link":"#" 
+          },
+           {
+            "id":3,
+            "type":"last",
+            "image":"./image/best/image-3.png",
+            "number":"3",
+            "description":"پاوربانک شیائومی مدل Redmi ظرفیت 20000 میلی‌آمپرساعت به همراه کابل تبدیل microUSB",
+            "link":"#" 
+          }
+
+       ]
+      
+
       },
-      {
-        "title": "مسئولیت‌های اجتماعی",
-        "href": "/company/social-responsibility"
+      {"id":3,
+       "cards":[
+          {
+            "id":1,
+             "image":"./image/best/image-1.png",
+             "number":"1",
+             "description":"کالباس 60 درصد قارچ و مرغ مهيا پروتئين - 250 گرم",
+             "link":"#" 
+          },
+           {
+            "id":2,
+             "image":"./image/best/image-2.png",
+             "number":"2",
+             "description":"گوشی موبایل آلکاتل مدل 1069 دو سیم‌ کارت",
+             "link":"#" 
+          },
+           {
+            "id":3,
+            "type":"last",
+            "image":"./image/best/image-3.png",
+            "number":"3",
+            "description":"پاوربانک شیائومی مدل Redmi ظرفیت 20000 میلی‌آمپرساعت به همراه کابل تبدیل microUSB",
+            "link":"#" 
+          }
+
+       ]
+      
+
       },
-      {
-        "title": "سازمان فروش",
-        "href": "/company/sales-organization"
+      {"id":4,
+       "cards":[
+          {
+            "id":1,
+             "image":"./image/best/image-1.png",
+             "number":"1",
+             "description":"کالباس 60 درصد قارچ و مرغ مهيا پروتئين - 250 گرم",
+             "link":"#" 
+          },
+           {
+            "id":2,
+             "image":"./image/best/image-2.png",
+             "number":"2",
+             "description":"گوشی موبایل آلکاتل مدل 1069 دو سیم‌ کارت",
+             "link":"#" 
+          },
+           {
+            "id":3,
+            "type":"last",
+            "image":"./image/best/image-3.png",
+            "number":"3",
+            "description":"پاوربانک شیائومی مدل Redmi ظرفیت 20000 میلی‌آمپرساعت به همراه کابل تبدیل microUSB",
+            "link":"#" 
+          }
+
+       ]
+      
+
       },
-      {
-        "title": "سازمان توزیع",
-        "href": "/company/distribution-organization"
+      {"id":5,
+       "cards":[
+          {
+            "id":1,
+             "image":"./image/best/image-1.png",
+             "number":"1",
+             "description":"کالباس 60 درصد قارچ و مرغ مهيا پروتئين - 250 گرم",
+             "link":"#" 
+          },
+           {
+            "id":2,
+             "image":"./image/best/image-2.png",
+             "number":"2",
+             "description":"گوشی موبایل آلکاتل مدل 1069 دو سیم‌ کارت",
+             "link":"#" 
+          },
+           {
+            "id":3,
+            "type":"last",
+            "image":"./image/best/image-3.png",
+            "number":"3",
+            "description":"پاوربانک شیائومی مدل Redmi ظرفیت 20000 میلی‌آمپرساعت به همراه کابل تبدیل microUSB",
+            "link":"#" 
+          }
+
+       ]
+      
+
       },
-      {
-        "title": "برنده‌ها",
-        "href": "/company/winners"
+      {"id":6,
+       "cards":[
+          {
+            "id":1,
+             "image":"./image/best/image-1.png",
+             "number":"1",
+             "description":"کالباس 60 درصد قارچ و مرغ مهيا پروتئين - 250 گرم",
+             "link":"#" 
+          },
+           {
+            "id":2,
+             "image":"./image/best/image-2.png",
+             "number":"2",
+             "description":"گوشی موبایل آلکاتل مدل 1069 دو سیم‌ کارت",
+             "link":"#" 
+          },
+           {
+            "id":3,
+            "type":"last",
+            "image":"./image/best/image-3.png",
+            "number":"3",
+            "description":"پاوربانک شیائومی مدل Redmi ظرفیت 20000 میلی‌آمپرساعت به همراه کابل تبدیل microUSB",
+            "link":"#" 
+          }
+
+       ]
+      
+
       }
     ]
-  },
-  {
-    "id": 3,
-    "title": "محصولات",
-    "href": "/products",
-    "submenu": [
-      {
-        "title": "چای",
-        "href": "/products/tea"
-      },
-      {
-        "title": "برنج",
-        "href": "/products/rice"
-      },
-      {
-        "title": "حبوبات و غلات",
-        "href": "/products/grains"
-      },
-      {
-        "title": "زعفران",
-        "href": "/products/saffron"
-      },
-      {
-        "title": "ادویه",
-        "href": "/products/spices"
-      },
-      {
-        "title": "دمنوش",
-        "href": "/products/herbal-tea"
-      },
-      {
-        "title": "قند و شکر",
-        "href": "/products/sugar"
-      }
-    ]
-  },
-  {
-    "id": 4,
-    "title": "وبلاگ",
-    "href": "/blog",
-    "submenu": [
-      {
-        "title": "مجله‌ی گلستان",
-        "href": "/blog/magazine"
-      }
-    ]
-  },
-  {
-    "id": 5,
-    "title": "قرعه کشی",
-    "href": "/lottery"
-  },
-  {
-    "id": 6,
-    "title": "استخدام",
-    "href": "/careers"
-  },
-  {
-    "id": 7,
-    "title": "تماس با ما",
-    "href": "/contact",
-    "submenu": [
-      {
-        "title": "دفتر مرکزی",
-        "href": "/contact/head-office"
-      },
-      {
-        "title": "صدای مشتریان",
-        "href": "/contact/customer-voice"
-      },
-      {
-        "title": "ارتباط با مشتریان",
-        "href": "/contact/customer-relations"
-      }
-    ]
-  },
-  {
-    "id": 8,
-    "title": "EN",
-    "href": "/en"
   }
-]
+ ],
+ "gallerySecond":[
+    {
+      "id":1,
+      "title": "لپ تاپ و الترابوک",
+      "subtitle": "بر اساس سلیقه شما",
+      "image": [
+        {"id":0,
+          "src": "./image/gallery-second/gallery-1.png",
+         "link":"#"
+         },
+         {"id":1,
+          "src": "./image/gallery-second/gallery-2.png",
+         "link":"#"
+         },
+         {
+          "id":2,
+          "src": "./image/gallery-second/gallery-1.png",
+         "link":"#"
+         },
+         {"id":3,
+          "src": "./image/gallery-second/gallery-2.png",
+         "link":"#"
+         }
+     ],
+    "cta": {
+    "text": "مشاهده",
+    "link": "#",
+    "svg": "./image/svg/gallery-observ.svg"
+   }
+},
+    {
+      "id":2,
+      "title": "جوراب مردانه",
+      "subtitle": "بر اساس سلیقه شما",
+      "image": [
+        {"id":0,
+          "src": "./image/gallery-second/gallery-3.png",
+         "link":"#"
+         },
+         {"id":1,
+          "src": "./image/gallery-second/gallery-4.png",
+         "link":"#"
+         },
+         {
+          "id":2,
+          "src": "./image/gallery-second/gallery-3.png",
+         "link":"#"
+         },
+         {"id":3,
+          "src": "./image/gallery-second/gallery-4.png",
+         "link":"#"
+         }
+     ],
+    "cta": {
+    "text": "مشاهده",
+    "link": "#",
+    "svg": "./image/svg/gallery-observ.svg"
+   }
+},
+   {
+      "id":3,
+      "title": "لپ تاپ و الترابوک",
+      "subtitle": "بر اساس سلیقه شما",
+      "image": [
+        {"id":0,
+          "src": "./image/gallery-second/gallery-1.png",
+         "link":"#"
+         },
+         {"id":1,
+          "src": "./image/gallery-second/gallery-2.png",
+         "link":"#"
+         },
+         {
+          "id":2,
+          "src": "./image/gallery-second/gallery-1.png",
+         "link":"#"
+         },
+         {"id":3,
+          "src": "./image/gallery-second/gallery-2.png",
+         "link":"#"
+         }
+     ],
+    "cta": {
+    "text": "مشاهده",
+    "link": "#",
+    "svg": "./image/svg/gallery-observ.svg"
+   }
+},
+    {
+      "id":4,
+      "title": "جوراب مردانه",
+      "subtitle": "بر اساس سلیقه شما",
+      "image": [
+        {"id":0,
+          "src": "./image/gallery-second/gallery-3.png",
+         "link":"#"
+         },
+         {"id":1,
+          "src": "./image/gallery-second/gallery-4.png",
+         "link":"#"
+         },
+         {
+          "id":2,
+          "src": "./image/gallery-second/gallery-3.png",
+         "link":"#"
+         },
+         {"id":3,
+          "src": "./image/gallery-second/gallery-4.png",
+         "link":"#"
+         }
+     ],
+    "cta": {
+    "text": "مشاهده",
+    "link": "#",
+    "svg": "./image/svg/gallery-observ.svg"
+   }
+}
+
+ ],
+ "sale":[
+    {
+      "id":0,
+      "type":"top",
+      "title":"منتخب محصولات تخفیف و حراج",
+      "svg":"./image/svg/sale-0percent.svg"
+     },
+     {
+      "id":1,
+      "type":"bottom",
+      "card":[
+        {
+          "id":0,
+          "link":"#",
+          "img":"./image/sale/image-1.png",
+          "percent":"6%",
+          "number":"6,349,000",
+          "numberLine":"6,765,000",
+          "svg":"./image/svg/tooman.svg"
+        },
+         {
+          "id":1,
+          "link":"#",
+          "img":"image/sale/image-2.png",
+          "percent":"6%",
+          "number":"26,499,000",
+          "numberLine":"28,299,000",
+          "svg":"./image/svg/tooman.svg"
+        },
+         {
+          "id":2,
+          "link":"#",
+          "img":"./image/sale/image-1.png",
+          "percent":"6%",
+          "number":"6,349,000",
+          "numberLine":"6,765,000",
+          "svg":"./image/svg/tooman.svg"
+        },
+         {
+          "id":3,
+          "link":"#",
+          "img":"image/sale/image-2.png",
+          "percent":"6%",
+          "number":"26,499,000",
+          "numberLine":"28,299,000",
+          "svg":"./image/svg/tooman.svg"
+        },
+         {
+          "id":4,
+          "link":"#",
+          "img":"./image/sale/image-1.png",
+          "percent":"6%",
+          "number":"6,349,000",
+          "numberLine":"6,765,000",
+          "svg":"./image/svg/tooman.svg"
+        },
+         {
+          "id":5,
+          "link":"#",
+          "img":"image/sale/image-2.png",
+          "percent":"6%",
+          "number":"26,499,000",
+          "numberLine":"28,299,000",
+          "svg":"./image/svg/tooman.svg"
+        },
+         {
+          "id":6,
+          "link":"#",
+          "img":"./image/sale/image-1.png",
+          "percent":"6%",
+          "number":"6,349,000",
+          "numberLine":"6,765,000",
+          "svg":"./image/svg/tooman.svg"
+        },
+         {
+          "id":7,
+          "link":"#",
+          "img":"image/sale/image-2.png",
+          "percent":"6%",
+          "number":"26,499,000",
+          "numberLine":"28,299,000",
+          "svg":"./image/svg/tooman.svg"
+        },
+         {
+          "id":8,
+          "link":"#",
+          "img":"./image/sale/image-1.png",
+          "percent":"6%",
+          "number":"6,349,000",
+          "numberLine":"6,765,000",
+          "svg":"./image/svg/tooman.svg"
+        },
+         {
+          "id":9,
+          "link":"#",
+          "img":"image/sale/image-2.png",
+          "percent":"6%",
+          "number":"26,499,000",
+          "numberLine":"28,299,000",
+          "svg":"./image/svg/tooman.svg"
+        },
+         {
+          "id":10,
+          "link":"#",
+          "img":"./image/sale/image-1.png",
+          "percent":"6%",
+          "number":"6,349,000",
+          "numberLine":"6,765,000",
+          "svg":"./image/svg/tooman.svg"
+        },
+         {
+          "id":11,
+          "link":"#",
+          "img":"image/sale/image-2.png",
+          "percent":"6%",
+          "number":"26,499,000",
+          "numberLine":"28,299,000",
+          "svg":"./image/svg/tooman.svg"
+        },
+         {
+          "id":12,
+          "link":"#",
+          "img":"./image/sale/image-1.png",
+          "percent":"6%",
+          "number":"6,349,000",
+          "numberLine":"6,765,000",
+          "svg":"./image/svg/tooman.svg"
+        },
+         {
+          "id":13,
+          "link":"#",
+          "img":"image/sale/image-2.png",
+          "percent":"6%",
+          "number":"26,499,000",
+          "numberLine":"28,299,000",
+          "svg":"./image/svg/tooman.svg"
+        },
+         {
+          "id":14,
+          "link":"#",
+          "img":"./image/sale/image-1.png",
+          "percent":"6%",
+          "number":"6,349,000",
+          "numberLine":"6,765,000",
+          "svg":"./image/svg/tooman.svg"
+        },
+         {
+          "id":15,
+          "link":"#",
+          "img":"image/sale/image-2.png",
+          "percent":"6%",
+          "number":"26,499,000",
+          "numberLine":"28,299,000",
+          "svg":"./image/svg/tooman.svg"
+        },
+         {
+          "id":16,
+          "link":"#",
+          "img":"./image/sale/image-1.png",
+          "percent":"6%",
+          "number":"6,349,000",
+          "numberLine":"6,765,000",
+          "svg":"./image/svg/tooman.svg"
+        },
+         {
+          "id":17,
+          "link":"#",
+          "img":"image/sale/image-2.png",
+          "percent":"6%",
+          "number":"26,499,000",
+          "numberLine":"28,299,000",
+          "svg":"./image/svg/tooman.svg"
+        }
+        
+      ]
+
+
+     }
+
+ ],
+ "bestSecond":[
+   {
+    "id":1,
+    "type":"top",
+    "title":"داغ ترین چند ساعت گذشته",
+    "svg":"./image/svg/best.svg",
+    "cta": {
+"text": "مشاهده همه",
+"link": "#"
+}
+  },
+  {
+    "id":2,
+    "type":"bottom",
+    "slides":[
+      {"id":1,
+       "cards":[
+          {
+            "id":1,
+             "image":"./image/best-second/image-1.png",
+             "number":"1",
+             "description":"ساعت هوشمند ایکس او مدل XO-J6",
+             "link":"#" 
+          },
+           {
+            "id":2,
+             "image":"./image/best-second/image-2.png",
+             "number":"2",
+             "description":"کتاب زندگی نامرئی ادی لارو اثر وی ای شواب ترجمه مائده نصیری شریفی نشر میلکان",
+             "link":"#" 
+          },
+           {
+            "id":3,
+            "type":"last",
+            "image":"./image/best-second/image-3.png",
+            "number":"3",
+            "description":"ادو پرفیوم مردانه فراگرنس پرشیا 116 مدل ساواج دیور حجم 100 میلی لیتر",
+            "link":"#" 
+          }
+
+       ]
+      
+
+      },
+       {"id":2,
+       "cards":[
+         {
+            "id":1,
+             "image":"./image/best-second/image-1.png",
+             "number":"1",
+             "description":"ساعت هوشمند ایکس او مدل XO-J6",
+             "link":"#" 
+          },
+           {
+            "id":2,
+             "image":"./image/best-second/image-2.png",
+             "number":"2",
+             "description":"کتاب زندگی نامرئی ادی لارو اثر وی ای شواب ترجمه مائده نصیری شریفی نشر میلکان",
+             "link":"#" 
+          },
+           {
+            "id":3,
+            "type":"last",
+            "image":"./image/best-second/image-3.png",
+            "number":"3",
+            "description":"ادو پرفیوم مردانه فراگرنس پرشیا 116 مدل ساواج دیور حجم 100 میلی لیتر",
+            "link":"#" 
+          }
+        
+
+       ]
+      
+
+      },
+      {"id":3,
+       "cards":[
+           {
+            "id":1,
+             "image":"./image/best-second/image-1.png",
+             "number":"1",
+             "description":"ساعت هوشمند ایکس او مدل XO-J6",
+             "link":"#" 
+          },
+           {
+            "id":2,
+             "image":"./image/best-second/image-2.png",
+             "number":"2",
+             "description":"کتاب زندگی نامرئی ادی لارو اثر وی ای شواب ترجمه مائده نصیری شریفی نشر میلکان",
+             "link":"#" 
+          },
+           {
+            "id":3,
+            "type":"last",
+            "image":"./image/best-second/image-3.png",
+            "number":"3",
+            "description":"ادو پرفیوم مردانه فراگرنس پرشیا 116 مدل ساواج دیور حجم 100 میلی لیتر",
+            "link":"#" 
+          }
+
+       ]
+      
+
+      },
+      {"id":4,
+       "cards":[
+          {
+            "id":1,
+             "image":"./image/best-second/image-1.png",
+             "number":"1",
+             "description":"ساعت هوشمند ایکس او مدل XO-J6",
+             "link":"#" 
+          },
+           {
+            "id":2,
+             "image":"./image/best-second/image-2.png",
+             "number":"2",
+             "description":"کتاب زندگی نامرئی ادی لارو اثر وی ای شواب ترجمه مائده نصیری شریفی نشر میلکان",
+             "link":"#" 
+          },
+           {
+            "id":3,
+            "type":"last",
+            "image":"./image/best-second/image-3.png",
+            "number":"3",
+            "description":"ادو پرفیوم مردانه فراگرنس پرشیا 116 مدل ساواج دیور حجم 100 میلی لیتر",
+            "link":"#" 
+          }
+
+       ]
+      
+
+      },
+      {"id":5,
+       "cards":[
+          {
+            "id":1,
+             "image":"./image/best-second/image-1.png",
+             "number":"1",
+             "description":"ساعت هوشمند ایکس او مدل XO-J6",
+             "link":"#" 
+          },
+           {
+            "id":2,
+             "image":"./image/best-second/image-2.png",
+             "number":"2",
+             "description":"کتاب زندگی نامرئی ادی لارو اثر وی ای شواب ترجمه مائده نصیری شریفی نشر میلکان",
+             "link":"#" 
+          },
+           {
+            "id":3,
+            "type":"last",
+            "image":"./image/best-second/image-3.png",
+            "number":"3",
+            "description":"ادو پرفیوم مردانه فراگرنس پرشیا 116 مدل ساواج دیور حجم 100 میلی لیتر",
+            "link":"#" 
+          }
+
+       ]
+      
+
+      },
+      {"id":6,
+       "cards":[
+           {
+            "id":1,
+             "image":"./image/best-second/image-1.png",
+             "number":"1",
+             "description":"ساعت هوشمند ایکس او مدل XO-J6",
+             "link":"#" 
+          },
+           {
+            "id":2,
+             "image":"./image/best-second/image-2.png",
+             "number":"2",
+             "description":"کتاب زندگی نامرئی ادی لارو اثر وی ای شواب ترجمه مائده نصیری شریفی نشر میلکان",
+             "link":"#" 
+          },
+           {
+            "id":3,
+            "type":"last",
+            "image":"./image/best-second/image-3.png",
+            "number":"3",
+            "description":"ادو پرفیوم مردانه فراگرنس پرشیا 116 مدل ساواج دیور حجم 100 میلی لیتر",
+            "link":"#" 
+          }
+
+       ]
+      
+
+      }
+    ]
+  }
+
+
+ ],
+ "readable":[
+   {
+    "id":1,
+    "type":"top",
+    "title":"خواندنی‌ها",
+    "cta":{
+      "text":"مطالب بیشتر در دیجی‌کالا مگ",
+      "svg":"./image/svg/gallery-observ.svg",
+      "link":"#"
+    }
+  },
+  {
+    "id":2,
+    "type":"bottom",
+     "card":[
+      {
+        "id":0,
+        "link":"#",
+        "img":"./image/readable/image-1.png",
+        "description":"۷ ساعت مچی زنانه که در بلک فرایدی دیجی کالا ارزش خرید دارد"
+      },
+       {
+        "id":1,
+        "link":"#",
+        "img":"./image/readable/image-2.png",
+        "description":"با خرید کارت هدیه بلک فرایدی ۱۴۰۳ دیجی‌کالا، با یک تیر دو نشان"
+      },
+       {
+        "id":2,
+        "link":"#",
+        "img":"./image/readable/image-1.png",
+        "description":"۷ ساعت مچی زنانه که در بلک فرایدی دیجی کالا ارزش خرید دارد"
+      },
+       {
+        "id":3,
+        "link":"#",
+        "img":"./image/readable/image-2.png",
+        "description":"با خرید کارت هدیه بلک فرایدی ۱۴۰۳ دیجی‌کالا، با یک تیر دو نشان"
+      }
+     ]
+
+  }
+
+ ],
+  "footer":{
+    "goup":{
+      "logo":"./image/svg/header-serch-logo.svg",
+      "cta":{
+          "text":"بازگشت به بالا",
+          "svg":"./image/svg/footer-up-arrow.svg"
+      }
+     },
+    "tell":{
+         "phone":["۶۱۹۳۰۰۰۰ - ۰۲۱","۰۲۱-۹۱۰۰۰۱۰۰"],
+         "text":["تلفن پشتیبانی","۷ روز هفته، ۲۴ ساعته پاسخگوی شما هستیم"]
+    },
+    "guide":[
+      { 
+        "id":1,
+        "title":"امکان تحویل اکسپرس",
+        "icon":"./image/svg/footer-express.svg",
+        "link":"#"
+      },
+       { 
+        "id":2,
+        "title":"امکان پرداخت در محل",
+        "icon":"./image/svg/footer-payment.svg",
+        "link":"#"
+      },
+        { 
+        "id":3,
+        "title":"۷ روز ﻫﻔﺘﻪ، ۲۴ ﺳﺎﻋﺘﻪ",
+        "icon":"./image/svg/footer-response.svg",
+        "link":"#"
+      },
+        { 
+        "id":4,
+        "title":"هفت روز ضمانت بازگشت کالا",
+        "icon":"./image/svg/footer-return.svg",
+        "link":"#"
+      },
+        { 
+        "id":5,
+        "title":"ﺿﻤﺎﻧﺖ اﺻﻞ ﺑﻮدن ﮐﺎﻟﺎ",
+        "icon":"./image/svg/footer-original.svg",
+        "link":"#"
+      }
+    ],
+    "menu":[
+      {
+        "id":1,
+        "title":"با دیجی‌کالا",
+        "items":[
+          {
+            "id":1,
+            "text":"اتاق خبر دیجی‌کالا",
+            "link":"#"
+          },
+          {
+            "id":2,
+            "text":"فروش در دیجی‌کالا",
+            "link":"#"
+          },
+          {
+            "id":3,
+            "text":"فرصت‌های شغلی",
+            "link":"#"
+          },
+          {
+            "id":4,
+            "text":"گزارش تخلف در دیجی‌کالا",
+            "link":"#"
+          },
+          {
+            "id":5,
+            "text":"تماس با دیجی‌کالا",
+            "link":"#"
+          },
+          {
+            "id":6,
+            "text":"درباره دیجی‌کالا",
+            "link":"#"
+          }
+
+        ]
+      },
+      {
+        "id":2,
+        "title":"خدمات مشتریان",
+        "items":[
+          {
+            "id":1,
+            "text":"پاسخ به پرسش ‌های متداول",
+            "link":"#"
+          },
+          {
+            "id":2,
+            "text":"رویه‌های بازگرداندن کالا",
+            "link":"#"
+          },
+          {
+            "id":3,
+            "text":"شرایط استفاده",
+            "link":"#"
+          },
+          {
+            "id":4,
+            "text":"حریم خصوصی",
+            "link":"#"
+          },
+          {
+            "id":5,
+            "text":"  گزارش باگ",
+            "link":"#"
+          }         
+        ]
+      },
+       {
+        "id":3,
+        "title":"راهنمای خرید از دیجی‌کالا",
+        "items":[
+          {
+            "id":1,
+            "text":"نحوه ثبت سفارش",
+            "link":"#"
+          },
+          {
+            "id":2,
+            "text":"رویه ارسال سفارش",
+            "link":"#"
+          },
+          {
+            "id":3,
+            "text":"شیوه‌های پرداخت",
+            "link":"#"
+          }         
+        ]
+      },
+         {
+        "id":4,
+        "type":"last",
+        "title":"همراه ما باشید!",
+        "social":[
+          {"id":1,"icon":"./image/svg/insta.svg","link":"#"},
+          {"id":2,"icon":"./image/svg/twitt.svg","link":"#"},
+          {"id":3,"icon":"./image/svg/linkedin.svg","link":"#"},
+          {"id":4,"icon":"./image/svg/aparat.svg","link":"#"}
+        ],
+        "email":{
+          "title":"با ثبت ایمیل، از جدید‌ترین تخفیف‌ها با‌خبر شوید",
+          "placeholder":"ایمیل شما",
+          "button":"ثبت"
+        }
+     }
+   ],
+   "app":{
+    "logo":"./image/app/app-logo.png",
+    "title":"دانلود اپلیکیشن دیجی‌کالا",
+    "links": [
+        {"id":0 ,"store": "bazzar", "icon": "./image/svg/app-bazzar.svg", "link": "#" },
+        {"id":1 , "store": "myket", "icon": "./image/svg/app-myket.svg", "link": "#" },
+        {"id":2 , "store": "sib", "icon": "./image/svg/app-sib.svg", "link": "#" },
+        {"id":3 , "store": "more", "icon": "./image/svg/app-More.svg", "link": "#" }
+      ]
+
+   },
+   "explanation":{
+    "title":"فروشگاه اینترنتی دیجی‌کالا، بررسی، انتخاب و خرید آنلاین",
+    "description":"یک خرید اینترنتی مطمئن، نیازمند فروشگاهی است که بتواند کالاهایی متنوع، باکیفیت و دارای قیمت مناسب را در مدت زمان ی کوتاه به دست مشتریان خود برساند و ضمانت بازگشت کالا هم داشته باشد؛ ویژگی‌هایی که فروشگاه       اینترنتی دیجی‌کالا سال‌هاست بر روی آن‌ها کار کرده و توانسته از این طریق مشتریان ثابت خود را داشته باشد.",
+    
+    
+    "descriptionlight":"یکی از مهم‌ترین دغدغه‌های کاربران دیجی‌کالا یا هر فروشگاه‌ اینترنتی دیگری، این است که کالای  خریداری شده چه زمانی به دستشان می‌رسد. دیجی‌کالا شیوه‌های مختلفی از ارسال را متناسب با فروشنده کالا،‌ مقصد کالا و   همچنین نوع کالا در اختیار کاربران خود قرار می‌دهد...",
+    "cta":[
+      {"id":0,
+        "text":"مشاهده بیشتر",
+      "svg":"./image/svg/gallery-observ.svg"}, 
+      {"id":1,
+        "text":"بستن",
+      "svg":"./image/svg/gallery-observ.svg"}   
+    ],
+    "icons":[
+      {
+        "id":0,
+        "img": "./image/footer-explanation/rezi.png",
+        "alt": "rezi",
+        "link": "#"
+      },
+      {
+        "id":1,
+        "img": "./image/footer-explanation/kasbokar.png",
+        "alt": "kasbokar",
+        "link": "#"
+      },
+      {
+        "id":3,
+        "img": "https://Trustseal.eNamad.ir/logo.aspx?id=19077&Code=sScdOJOzhFxtcEqkjP7P",
+        "alt": "enamad",
+        "link": "#"
+      }
+    ]
+   },
+   "rule":"برای استفاده از مطالب دیجی‌کالا، داشتن «هدف غیرتجاری» و ذکر «منبع» کافیست. تمام حقوق اين وب‌سايت نیز برای شرکت نوآوران فن آوازه (فروشگاه آنلاین دیجی‌کالا) است.",
+   "partners":[
+     {"id":0,
+      "img":"./image/svg/digimag.svg",
+      "alt":"mag",
+      "link":"#"
+     },
+     {"id":1,
+      "img":"./image/svg/digipay.svg",
+      "alt":"pay",
+      "link":"#"
+     },{"id":2,
+      "img":"./image/svg/digistyle.svg",
+      "alt":"style",
+      "link":"#"
+     },{"id":3,
+      "img":"./image/svg/digiplus.svg",
+      "alt":"plus",
+      "link":"#"
+     },{"id":4,
+      "img":"./image/svg/digiclub.svg",
+      "alt":"club",
+      "link":"#"
+     },{"id":5,
+      "img":"./image/svg/digijet.svg",
+      "alt":"jet",
+      "link":"#"
+     },{"id":6,
+      "img":"./image/svg/digiMehr.svg",
+      "alt":"mehr",
+      "link":"#"
+     },{"id":7,
+      "img":"./image/svg/diginext.svg",
+      "alt":"next",
+      "link":"#"
+     },{"id":8,
+      "img":"./image/svg/digiexpress.svg",
+      "alt":"express",
+      "link":"#"
+     },{"id":9,
+      "img":"./image/svg/ganjeh.svg",
+      "alt":"ganjeh",
+      "link":"#"
+     },{"id":10,
+      "img":"./image/svg/digify.svg",
+      "alt":"digify",
+      "link":"#"
+     },{"id":11,
+      "img":"./image/svg/smartech.svg",
+      "alt":"smartech",
+      "link":"#"
+     },{"id":12,
+      "img":"./image/svg/digikala-business.svg",
+      "alt":"business",
+      "link":"#"
+     },{"id":13,
+      "img":"./image/svg/digikala-service.svg",
+      "alt":"service",
+      "link":"#"
+     }
+   ]
  }
 
 
-
-
+    
 }
-
-
-
