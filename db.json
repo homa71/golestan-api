@@ -280,25 +280,25 @@
         {
           "id": 1,
           "name": "Facebook",
-          "image": "./images/social/facebook.png",
+          "image": "./images/social/facebook.svg",
           "link": "#"
         },
          {
           "id": 2,
           "name": "LinkedIn",
-          "image": "./images/social/linkedin.png",
+          "image": "./images/social/linkedin.svg",
           "link": "#"
         },
           {
           "id": 3,
           "name": "Instagram",
-          "image": "./images/social/instagram.png",
+          "image": "./images/social/insta.svg",
           "link": "#"
         },
          {
           "id": 4,
           "name": "Telegram",
-          "image": "./images/social/telegram.png",
+          "image": "./images/social/telegram.svg",
           "link": "#"
         },
          {
