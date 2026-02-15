@@ -271,7 +271,50 @@
       "buttonText": "ناتس گلستان",
       "buttonLink": ""
     }
-  }
+  },
+  "footer": {
+    "social": {
+     
+      "icons": [
+      
+        {
+          "id": 1,
+          "name": "Facebook",
+          "image": "./images/social/facebook.png",
+          "link": "#"
+        },
+         {
+          "id": 2,
+          "name": "LinkedIn",
+          "image": "./images/social/linkedin.png",
+          "link": "#"
+        },
+          {
+          "id": 3,
+          "name": "Instagram",
+          "image": "./images/social/instagram.png",
+          "link": "#"
+        },
+         {
+          "id": 4,
+          "name": "Telegram",
+          "image": "./images/social/telegram.png",
+          "link": "#"
+        },
+         {
+          "id": 5,
+          "name": "Aparat",
+          "image": "./images/social/aparat.png",
+          "link": "#"
+        },
+          {
+          "id":6,
+          "name": "گلستان",
+          "image": "./images/social/gl.png",
+          "link": "#"
+        }
+      ]
+    }
 
 
 }
