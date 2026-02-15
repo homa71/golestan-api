@@ -304,13 +304,13 @@
          {
           "id": 5,
           "name": "Aparat",
-          "image": "./images/social/aparat.png",
+          "image": "./images/social/aparat.svg",
           "link": "#"
         },
           {
           "id":6,
           "name": "گلستان",
-          "image": "./images/social/gl.png",
+          "image": "./images/social/gl.svg",
           "link": "#"
         }
       ]
