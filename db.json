@@ -445,7 +445,11 @@
         ]
       }
 
-    ]
+    ],
+    "rule":{
+      "copyright":"All Right Reserved Golestan Company 2022-2025",
+      "design":"Design By: Golestan Studio"
+    }
 
     
   }
